@@ -1,0 +1,202 @@
+﻿/*Trang sản phẩm lớn trên menu*/
+.danhmucsanpham {
+    height: 1%;
+    overflow: hidden;
+}
+
+    /*banner*/
+    .danhmucsanpham > .banner {
+        height: 1%;
+        overflow: hidden;
+        background: url(../images/sanpham/banner-bg.png) no-repeat;
+        background-size: 100%;
+        padding: 0;
+    }
+
+        .danhmucsanpham > .banner > p {
+            background: linear-gradient(to left,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 12%,rgba(0,0,0,.2) 39%,rgba(0,0,0,.3) 51%,rgba(0,0,0,.4) 100%);
+            font-family: Roboto-Medium;
+            font-size: 1.3em;
+            color: rgb(255, 255, 255);
+            text-align: justify;
+            padding: 3em 0em 13em 3em;
+            margin: 0;
+        }
+
+            .danhmucsanpham > .banner > p > span {
+                font-size: 1.5em;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+    /*Danh mục sản phẩm*/
+    .danhmucsanpham > .danhmuc {
+        height: 1%;
+        overflow: hidden;
+    }
+
+        .danhmucsanpham > .danhmuc > p {
+            font-family: Roboto-Black;
+            font-size: 2em;
+            color: rgb(12, 123, 7);
+            text-transform: uppercase;
+            text-align: center;
+            padding: 0.2em 0;
+            margin: 1.5em 0 1em 0;
+            border-top: solid 2px rgb(12, 123, 7);
+            border-bottom: solid 2px rgb(12, 123, 7);
+            width: 30%;
+            left: 35%;
+        }
+
+        .danhmucsanpham > .danhmuc > .cacsanpham {
+            height: 1%;
+            overflow: hidden;
+            padding: 0;
+        }
+
+            .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham {
+                text-align: center;
+                padding: 1em 0 0 0;
+                margin: 1em 0 1em 0;
+                transition: all .3s ease-in-out;
+            }
+
+                .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham:hover {
+                    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+                }
+
+                .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a {
+                    text-decoration: none;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                    .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > img {
+                        width: 95%;
+                        height: 20em;
+                    }
+
+                    .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info {
+                        margin: 1em 0 3em 0;
+                    }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .title {
+                            font-family: Roboto-Black;
+                            font-size: 1.5em;
+                            text-transform: uppercase;
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .rv {
+                            color: rgb(237, 7, 105);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .rc {
+                            color: rgb(0, 66, 255);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .rs {
+                            color: rgb(16, 148, 101);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .rcn {
+                            color: rgb(248, 149, 29);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .rk {
+                            color: rgb(140, 68, 25);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .cg {
+                            color: rgb(0, 0, 0);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .sk {
+                            color: rgb(138, 77, 158);
+                        }
+
+                        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .detail {
+                            font-family: Roboto-Light;
+                            font-size: 1.2em;
+                            color: rgba(0, 0, 0, .6);
+                            text-align: justify;
+                            height: 5em;
+                        }
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*banner*/
+    .danhmucsanpham > .banner > p {
+        padding: 3em 0em 7em 3em;
+    }
+
+    /*Danh mục sản phẩm*/
+    .danhmucsanpham > .danhmuc > p {
+        width: 40%;
+        left: 30%;
+    }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*banner*/
+    .danhmucsanpham > .banner > p {
+        font-size: 1em;
+        padding: 3em 0em 6em 3em;
+    }
+
+        .danhmucsanpham > .banner > p > span {
+            font-size: 1.4em;
+        }
+
+    /*Danh mục sản phẩm*/
+    .danhmucsanpham > .danhmuc > p {
+        font-size: 1.5em;
+        width: 40%;
+        left: 30%;
+    }
+
+    .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham {
+        transition: all .3s ease-in-out;
+    }
+
+        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > img {
+            width: 100%;
+            height: 15em;
+        }
+
+        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info {
+            margin: 1em 0 2em 0;
+        }
+
+            .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .title {
+                font-size: 1.1em;
+            }
+
+            .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > .info > .detail {
+                height: 8em;
+            }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Danh mục sản phẩm*/
+    .danhmucsanpham > .danhmuc {
+        padding: 0;
+    }
+
+        .danhmucsanpham > .danhmuc > p {
+            font-size: 1.5em;
+            width: 80%;
+            left: 10%;
+        }
+
+        .danhmucsanpham > .danhmuc > .cacsanpham > .sanpham > a > img {
+            width: 100%;
+            height: 20em;
+        }
+}

@@ -1,0 +1,111 @@
+﻿.danhsachsanpham {
+    height: 1%;
+    overflow: hidden;
+}
+
+    /*Banner*/
+    .danhsachsanpham > .banner {
+        height: 1%;
+        overflow: hidden;
+        background: url(../images/sanpham/remvai/remvai1lop/banner-bg.png) no-repeat;
+        background-size: 100%;
+        padding: 0;
+    }
+
+        .danhsachsanpham > .banner > p {
+            background: linear-gradient(to left,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 12%,rgba(0,0,0,.2) 39%,rgba(0,0,0,.3) 51%,rgba(0,0,0,.4) 100%);
+            font-family: Roboto-Medium;
+            font-size: 1.7em;
+            color: rgb(255, 255, 255);
+            text-align: justify;
+            padding: 3em 0em 10em 3em;
+            margin: 0;
+        }
+
+            .danhsachsanpham > .banner > p > span {
+                font-size: 1.5em;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+    /*Danh sách sản phẩm*/
+    .danhsachsanpham > .danhsach {
+        height: 1%;
+        overflow: hidden;
+    }
+
+        /*Tiêu đề*/
+        .danhsachsanpham > .danhsach > .title {
+            font-family: Roboto-Black;
+            font-size: 2em;
+            color: rgb(12, 123, 7);
+            text-transform: uppercase;
+            text-align: center;
+            padding: 0.2em 0;
+            margin: 1.5em 0 1em 0;
+            border-top: solid 2px rgb(12, 123, 7);
+            border-bottom: solid 2px rgb(12, 123, 7);
+            width: 30%;
+            left: 35%;
+        }
+
+        /*Danh sách*/
+        .danhsachsanpham > .danhsach > .cacsanpham {
+            height: 1%;
+            overflow: hidden;
+            padding: 0;
+        }
+
+            .danhsachsanpham > .danhsach > .cacsanpham > .sanpham {
+                height: 1%;
+                overflow: hidden;
+                text-align: center;
+                padding: 0;
+                margin: 0 0 2em 0;
+            }
+
+                .danhsachsanpham > .danhsach > .cacsanpham > .sanpham > a {
+                    text-decoration: none;
+                }
+
+                    .danhsachsanpham > .danhsach > .cacsanpham > .sanpham > a > img {
+                    }
+
+                    .danhsachsanpham > .danhsach > .cacsanpham > .sanpham > a > p {
+                        font-family: Roboto-Regular;
+                        font-size: 1.5em;
+                        color: rgba(0, 0, 0, .6);
+                        margin: 0.5em 0 0 0;
+                        transition: all .3s ease-in-out;
+                    }
+
+                    .danhsachsanpham > .danhsach > .cacsanpham > .sanpham > a:hover > p {
+                        color: rgb(12, 123, 7);
+                        font-weight: bold;
+                    }
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Danh sách sản phẩm*/
+    .danhsachsanpham > .danhsach {
+        padding: 0;
+    }
+
+        /*Tiêu đề*/
+        .danhsachsanpham > .danhsach > .title {
+            width: 60%;
+            left: 20%;
+        }
+}

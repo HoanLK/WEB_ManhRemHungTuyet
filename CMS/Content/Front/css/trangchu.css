@@ -1,0 +1,890 @@
+.trangchu {
+    padding: 0;
+}
+
+    /*Banner & danh mục & giới thiệu & công trinh tiêu biểu*/
+    .trangchu > .banner {
+        padding: 0;
+        height: 1%;
+        overflow: hidden;
+    }
+
+        /*banner & danh mục sản phẩm*/
+        .trangchu > .banner > .anh {
+            padding: 0;
+            height: 35em;
+        }
+
+            /*banner*/
+            .trangchu > .banner > .anh > .img {
+                padding: 0;
+                height: 100%;
+            }
+
+                .trangchu > .banner > .anh > .img > img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            /*Danh mục sản phẩm*/
+            .trangchu > .banner > .anh > .danhmuc {
+                position: absolute;
+                z-index: 2;
+                top: 1em;
+                left: 3em;
+                background: rgba(0, 0, 0, .6);
+                padding: 0;
+                width: 20em;
+            }
+
+                .trangchu > .banner > .anh > .danhmuc > ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                    .trangchu > .banner > .anh > .danhmuc > ul > .title {
+                        background: rgb(6, 123, 9);
+                        color: rgb(255, 255, 255);
+                        font-family: Roboto-Regular;
+                        font-size: 1.5em;
+                        text-transform: uppercase;
+                        padding: 0.5em 0.5em;
+                    }
+
+                        .trangchu > .banner > .anh > .danhmuc > ul > .title > i {
+                            margin: 0 0.5em 0 0;
+                        }
+
+                    .trangchu > .banner > .anh > .danhmuc > ul > li {
+                        text-align: center;
+                    }
+
+                        .trangchu > .banner > .anh > .danhmuc > ul > li > a {
+                            font-family: Roboto-Regular;
+                            font-size: 1.4em;
+                            color: rgb(255, 255, 255);
+                            text-decoration: none;
+                            border-bottom: solid 1px rgba(255, 255, 255, .5);
+                            padding: 0.3em 0;
+                            display: block;
+                            width: 90%;
+                            margin-left: 5%;
+                            transition: all .3s ease-in-out;
+                        }
+
+                            .trangchu > .banner > .anh > .danhmuc > ul > li > a:hover {
+                                font-size: 1.6em;
+                            }
+
+        /*Giới thiệu & công trình tiêu biểu*/
+        .trangchu > .banner > .gioithieu-congtrinh {
+            height: 35em;
+            padding: 0 0 0 1em;
+            ;
+        }
+
+            /*Giới thiệu*/
+            .trangchu > .banner > .gioithieu-congtrinh > .gioithieu {
+                height: 48%;
+                margin: 0 0 2% 0;
+                padding: 0;
+                text-decoration: none;
+            }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > img {
+                    height: 100%;
+                    padding: 0 0 0 1em;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > .opacity {
+                    width: 100%;
+                    left: 5%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    background: rgba(0, 0, 0, .4);
+                    transition: all .5s ease-in-out;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu:hover > .opacity {
+                    background: rgba(0, 0, 0, .6);
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > p {
+                    font-family: Roboto-Regular;
+                    font-size: 1.3em;
+                    color: rgb(255, 255, 255);
+                    top: -3em;
+                    text-align: center;
+                    display: block;
+                    position: relative;
+                    z-index: 0;
+                    width: 80%;
+                    left: 10%;
+                    border-top: solid 1px;
+                    border-bottom: solid 1px;
+                    transition: all .5s ease-in-out;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu:hover > p {
+                    font-size: 1.6em;
+                    width: 100%;
+                    top: -6em;
+                    left: 0;
+                }
+
+            /**Tiêu biểu*/
+            .trangchu > .banner > .gioithieu-congtrinh > .tieubieu {
+                height: 48%;
+                margin: 2% 0 0 0;
+                padding: 0;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+            }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > img {
+                    height: 100%;
+                    padding: 0 0 0 1em;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > .opacity {
+                    width: 100%;
+                    left: 5%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    background: rgba(0, 0, 0, .4);
+                    transition: all .5s ease-in-out;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu:hover > .opacity {
+                    background: rgba(0, 0, 0, .6);
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > p {
+                    font-family: Roboto-Regular;
+                    font-size: 1.3em;
+                    color: rgb(255, 255, 255);
+                    top: -3em;
+                    text-align: center;
+                    display: block;
+                    position: relative;
+                    z-index: 0;
+                    width: 80%;
+                    left: 10%;
+                    border-top: solid 1px;
+                    border-bottom: solid 1px;
+                    transition: all .5s ease-in-out;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu:hover > p {
+                    font-size: 1.6em;
+                    width: 100%;
+                    top: -6em;
+                    left: 0;
+                }
+
+    /*Sản phẩm bán chạy*/
+    .trangchu > .banchay {
+        height: 33em;
+        padding: 0;
+        margin: 3em 0;
+    }
+
+        .trangchu > .banchay > .tieude {
+            font-family: Roboto-Regular;
+            font-size: 2em;
+            color: rgb(12, 123, 7);
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            width: 30%;
+            left: 35%;
+            padding: 0.2em 0;
+            margin: 1em 0;
+            border-top: solid 2px rgb(12, 123, 7);
+            border-bottom: solid 2px rgb(12, 123, 7);
+        }
+
+        .trangchu > .banchay > .sanpham {
+            text-align: center;
+            padding: 0;
+        }
+
+            .trangchu > .banchay > .sanpham > div {
+                padding: 0;
+            }
+
+                .trangchu > .banchay > .sanpham > div > a {
+                    padding: 0;
+                    text-decoration: none;
+                }
+
+                    .trangchu > .banchay > .sanpham > div > a > img {
+                        width: 75%;
+                        height: 20em;
+                        transition: all .3s ease-in-out;
+                    }
+
+                    .trangchu > .banchay > .sanpham > div > a:hover > img {
+                        width: 80%;
+                        height: 22em;
+                    }
+
+                    .trangchu > .banchay > .sanpham > div > a > p {
+                        font-family: Roboto-Regular;
+                        font-size: 1.3em;
+                        color: rgb(0, 0, 0);
+                        transition: all .3s ease-in-out;
+                    }
+
+                    .trangchu > .banchay > .sanpham > div > a:hover > p {
+                        font-size: 1.5em;
+                        color: rgb(12, 123, 7);
+                    }
+
+    /*Các loại rèm*/
+    .trangchu > .sanpham {
+        height: 1%;
+        overflow: hidden;
+    }
+
+        /*Tứng loại rèm*/
+        .trangchu > .sanpham > .loaisanpham {
+            height: 1%;
+            overflow: hidden;
+            padding: 2em 1em;
+            margin: 2em 0;
+            box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+        }
+
+            /*Cột tên loại và phân loại rèm*/
+            .trangchu > .sanpham > .loaisanpham > .phanloai {
+                padding: 0;
+            }
+
+                .trangchu > .sanpham > .loaisanpham > .phanloai > p {
+                    background: rgb(12, 123, 7);
+                    font-family: Roboto-Regular;
+                    font-size: 1.5em;
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding: 0.5em 0;
+                }
+
+                .trangchu > .sanpham > .loaisanpham > .phanloai > .link {
+                    padding: 0;
+                }
+
+                    .trangchu > .sanpham > .loaisanpham > .phanloai > .link > a {
+                        display: block;
+                        font-family: Roboto-Light;
+                        font-size: 1.1em;
+                        font-weight: bold;
+                        color: rgba(0, 0, 0, .7);
+                        text-decoration: none;
+                        padding: 0.5em 1em;
+                        border-bottom: solid 1px rgba(0, 0, 0, .3);
+                        transition: all .3s ease-in-out;
+                    }
+
+                        .trangchu > .sanpham > .loaisanpham > .phanloai > .link > a:hover {
+                            font-size: 1.2em;
+                            color: rgb(12, 123, 7);
+                        }
+
+            /*Hình minh họa và tên loại rèm*/
+            .trangchu > .sanpham > .loaisanpham > .main {
+                padding: 0;
+                text-align: center;
+            }
+
+                .trangchu > .sanpham > .loaisanpham > .main > img {
+                }
+
+                .trangchu > .sanpham > .loaisanpham > .main > p {
+                    font-family: Roboto-Regular;
+                    font-size: 1.5em;
+                    margin: 1em 0;
+                }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > span {
+                        font-family: Roboto-Black;
+                        font-size: 1.5em;
+                        text-transform: uppercase;
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .rv {
+                        color: rgb(234, 8, 104);
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .rc {
+                        color: rgb(0, 66, 255);
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .rs {
+                        color: rgb(16, 149, 101);
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .rcn {
+                        color: rgb(255, 150, 0);
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .rk {
+                        color: rgb(132, 56, 10);
+                    }
+
+                    .trangchu > .sanpham > .loaisanpham > .main > p > .cg {
+                        color: rgb(172, 2, 235);
+                    }
+
+            /*Các sản phẩm của từng loại*/
+            .trangchu > .sanpham > .loaisanpham > .sub {
+                padding: 0;
+            }
+
+                .trangchu > .sanpham > .loaisanpham > .sub > div {
+                    padding: 0;
+                    text-align: center;
+                    margin: 0 0 1em 0;
+                    height: 16em;
+                }
+
+                    .trangchu > .sanpham > .loaisanpham > .sub > div > a {
+                        text-decoration: none;
+                        padding: 0;
+                    }
+
+                        .trangchu > .sanpham > .loaisanpham > .sub > div > a > img {
+                        }
+
+                        .trangchu > .sanpham > .loaisanpham > .sub > div > a > p {
+                            font-family: Roboto-Regular;
+                            font-size: 1.1em;
+                            color: rgba(0, 0, 0, .6);
+                            font-weight: bold;
+                            text-align: center;
+                            margin: 0.3em 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        .trangchu > .sanpham > .loaisanpham > .sub > div > a:hover > p {
+                            color: rgb(12, 123, 7);
+                        }
+
+    /*Slide các dự án tiêu biểu*/
+    .trangchu > .duan {
+        margin: 1em 0;
+        padding: 0;
+    }
+
+        .trangchu > .duan > p {
+            font-family: Roboto-Black;
+            font-size: 2em;
+            color: rgb(12, 123, 7);
+            text-transform: uppercase;
+            text-align: center;
+            width: 30%;
+            left: 35%;
+            padding: 0.3em 0;
+            margin: 1em 0;
+            border-top: solid 2px rgb(12, 123, 7);
+            border-bottom: solid 2px rgb(12, 123, 7);
+        }
+
+        .trangchu > .duan > div {
+        }
+
+            .trangchu > .duan > div > .well {
+            }
+
+                .trangchu > .duan > div > .well > div {
+                }
+
+                    /*phần ảnh*/
+                    .trangchu > .duan > div > .well > div > .pic {
+                    }
+
+                        .trangchu > .duan > div > .well > div > .pic > .item {
+                        }
+
+                            .trangchu > .duan > div > .well > div > .pic > .item > div {
+                            }
+
+                                .trangchu > .duan > div > .well > div > .pic > .item > div > div {
+                                }
+
+                                    .trangchu > .duan > div > .well > div > .pic > .item > div > div > a {
+                                    }
+
+                                        .trangchu > .duan > div > .well > div > .pic > .item > div > div > a > img {
+                                            width: 100%;
+                                            height: 15em;
+                                        }
+
+                    /*Nút chuyển*/
+                    .trangchu > .duan > div > .well > div > a {
+                        width: 1.5em;
+                        font-size: 5em;
+                        padding: 0.8em 0;
+                    }
+
+    /*Tin tức*/
+    .trangchu > .tintuc {
+        height: 1%;
+        overflow: hidden;
+        width: 98%;
+        margin: 4em 1em;
+        padding: 2em 1em;
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+    }
+
+        /*Ảnh đại diện phần tin tức*/
+        .trangchu > .tintuc > img {
+            height: 23em;
+        }
+
+        /*Ô video*/
+        .trangchu > .tintuc > .video {
+            height: 100%;
+        }
+
+            .trangchu > .tintuc > .video > iframe {
+                width: 100%;
+                height: 23em;
+            }
+
+        /*các tin tức*/
+        .trangchu > .tintuc > .cactintuc {
+            height: 100%;
+        }
+
+            .trangchu > .tintuc > .cactintuc > p {
+                font-family: Roboto-Regular;
+                font-size: 2em;
+                text-transform: uppercase;
+            }
+
+                .trangchu > .tintuc > .cactintuc > p > span {
+                    margin: 0 0.3em 0 0;
+                    font-size: 1.4em;
+                    color: rgb(255, 0, 0);
+                }
+
+            /*Tin lớn*/
+            .trangchu > .tintuc > .cactintuc > .news {
+                display: block;
+                height: 1%;
+                overflow: hidden;
+                padding: 0;
+            }
+
+                .trangchu > .tintuc > .cactintuc > .news:hover {
+                }
+
+                .trangchu > .tintuc > .cactintuc > .news > img {
+                    padding: 0;
+                }
+
+                .trangchu > .tintuc > .cactintuc > .news > p {
+                    font-family: Roboto-Light;
+                    color: rgba(0, 0, 0, .7);
+                    text-align: justify;
+                }
+
+                    .trangchu > .tintuc > .cactintuc > .news > p > span {
+                        font-weight: bold;
+                        font-size: 1.2em;
+                    }
+
+            /*Danh sách tin tức*/
+            .trangchu > .tintuc > .cactintuc > .list {
+            }
+
+                .trangchu > .tintuc > .cactintuc > .list > ul {
+                    padding: 0;
+                }
+
+                    .trangchu > .tintuc > .cactintuc > .list > ul > li {
+                    }
+
+                        .trangchu > .tintuc > .cactintuc > .list > ul > li > a {
+                            font-family: Roboto-Light;
+                            font-style: italic;
+                            color: rgba(0, 0, 0, .7);
+                            line-height: 1.8em;
+                            text-decoration: none;
+                        }
+
+                            .trangchu > .tintuc > .cactintuc > .list > ul > li > a:hover {
+                                color: rgb(12, 123, 7);
+                                font-weight: bold;
+                            }
+
+                /*Nút xem thêm*/
+                .trangchu > .tintuc > .cactintuc > .list > a {
+                    float: right;
+                    font-family: Roboto-Regular;
+                    font-size: 1.3em;
+                    text-decoration: none;
+                }
+
+                    .trangchu > .tintuc > .cactintuc > .list > a:hover {
+                        font-style: italic;
+                    }
+
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    /*banner & danh mục sản phẩm*/
+    .trangchu > .banner > .anh {
+        height: 35em;
+    }
+
+    /*Giới thiệu & công trình tiêu biểu*/
+    .trangchu > .banner > .gioithieu-congtrinh {
+        height: 35em;
+    }
+
+        /*Giới thiệu*/
+        .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > p {
+            font-size: 1.8em;
+            top: -5em;
+        }
+
+        /**Tiêu biểu*/
+        .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > p {
+            font-size: 1.8em;
+            top: -5em;
+        }
+
+    /*Tin tức*/
+    .trangchu > .tintuc {
+        height: 1%;
+        overflow: hidden;
+    }
+
+        /*Ảnh đại diện phần tin tức*/
+        .trangchu > .tintuc > img {
+            height: 25em;
+        }
+
+        /*Ô video*/
+        .trangchu > .tintuc > .video {
+            height: 25em;
+        }
+
+        /*các tin tức*/
+        .trangchu > .tintuc > .cactintuc {
+            height: 1%;
+            overflow: hidden;
+        }
+
+            /*Tin lớn*/
+            .trangchu > .tintuc > .cactintuc > .news {
+                height: 1%;
+                overflow: hidden;
+            }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*banner & danh mục sản phẩm*/
+    .trangchu > .banner > .anh {
+        height: 30em;
+    }
+        /*Danh mục sản phẩm*/
+        .trangchu > .banner > .anh > .danhmuc {
+            display: none;
+        }
+
+    /*Giới thiệu & công trình tiêu biểu*/
+    .trangchu > .banner > .gioithieu-congtrinh {
+        height: 30em;
+        padding: 0 1em;
+        margin: 2em 0 0 0;
+    }
+
+        /*Giới thiệu*/
+        .trangchu > .banner > .gioithieu-congtrinh > .gioithieu {
+            height: 100%;
+            margin: 0;
+        }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > img {
+                height: 100%;
+                padding: 0 5%;
+            }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > .opacity {
+                width: 90%;
+                left: 5%;
+            }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > p {
+                font-size: 1.8em;
+                top: -5em;
+            }
+
+        /**Tiêu biểu*/
+        .trangchu > .banner > .gioithieu-congtrinh > .tieubieu {
+            height: 100%;
+            margin: 0;
+        }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > img {
+                height: 100%;
+                padding: 0 5%;
+            }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > .opacity {
+                width: 90%;
+                left: 5%;
+            }
+
+            .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > p {
+                font-size: 1.8em;
+                top: -5em;
+            }
+
+    /*Sản phẩm bán chạy*/
+    .trangchu > .banchay {
+        height: 1%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+        .trangchu > .banchay > .tieude {
+            width: 50%;
+            left: 25%;
+        }
+
+        .trangchu > .banchay > .sanpham > div {
+            margin: 0 0 2em 0;
+        }
+
+            .trangchu > .banchay > .sanpham > div > a > img {
+                width: 85%;
+                height: 30em;
+            }
+
+            .trangchu > .banchay > .sanpham > div > a:hover > img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .trangchu > .banchay > .sanpham > div > a > p {
+                margin: 0.5em 0 0 0;
+            }
+
+    /*Slide các dự án tiêu biểu*/
+    .trangchu > .duan > p {
+        width: 50%;
+        left: 25%;
+    }
+
+    .trangchu > .duan > div > .well > div > .pic > .item > div > div > a > img {
+        width: 100%;
+        height: 14em;
+    }
+
+    /*Tin tức*/
+    .trangchu > .tintuc {
+        height: 1%;
+        overflow: hidden;
+        width: 96%;
+    }
+
+        /*Ảnh đại diện phần tin tức*/
+        .trangchu > .tintuc > img {
+            height: 30em;
+        }
+
+        /*Ô video*/
+        .trangchu > .tintuc > .video > iframe {
+            width: 100%;
+            margin: 0 0 3em 0;
+        }
+        /*Tin lớn*/
+        .trangchu > .tintuc > .cactintuc > .news {
+            height: 1%;
+            overflow: hidden;
+        }
+
+            .trangchu > .tintuc > .cactintuc > .news > img {
+                padding: 0;
+            }
+
+            .trangchu > .tintuc > .cactintuc > .news > p {
+                font-size: 1.2em;
+            }
+
+                .trangchu > .tintuc > .cactintuc > .news > p > span {
+                    font-size: 1.5em;
+                }
+
+        /*Danh sách tin tức*/
+        .trangchu > .tintuc > .cactintuc > .list > ul > li > a {
+            font-size: 1.2em;
+        }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Banner & danh mục & giới thiệu & công trinh tiêu biểu*/
+    .trangchu > .banner {
+        padding: 0;
+        height: 1%;
+        overflow: hidden;
+    }
+
+        /*banner & danh mục sản phẩm*/
+        .trangchu > .banner > .anh {
+            height: 15em;
+        }
+
+            /*Danh mục sản phẩm*/
+            .trangchu > .banner > .anh > .danhmuc {
+                display: none;
+            }
+
+        /*Giới thiệu & công trình tiêu biểu*/
+        .trangchu > .banner > .gioithieu-congtrinh {
+            height: 15em;
+            padding: 0;
+        }
+
+            /*Giới thiệu*/
+            .trangchu > .banner > .gioithieu-congtrinh > .gioithieu {
+                height: 100%;
+                margin: 1em 0 2em 0;
+            }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > img {
+                    padding: 0;
+                    width: 90%;
+                    left: 5%;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > .opacity {
+                    width: 90%;
+                    left: 5%;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > p {
+                    font-size: 1.1em;
+                    top: -5em;
+                }
+
+            /*Tiêu biểu*/
+            .trangchu > .banner > .gioithieu-congtrinh > .tieubieu {
+                height: 100%;
+                margin: 1em 0 2em 0;
+            }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > img {
+                    width: 90%;
+                    left: 5%;
+                    padding: 0;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > .opacity {
+                    width: 90%;
+                    left: 5%;
+                }
+
+                .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > p {
+                    font-size: 1.1em;
+                    top: -5em;
+                }
+
+    /*Sản phẩm bán chạy*/
+    .trangchu > .banchay {
+        height: 1%;
+        overflow: hidden;
+        margin: 0;
+    }
+
+        .trangchu > .banchay > .tieude {
+            width: 90%;
+            left: 5%;
+        }
+
+        .trangchu > .banchay > .sanpham > div > a > img {
+            width: 90%;
+            height: 15em;
+        }
+
+    /*Các loại rèm*/
+    .trangchu > .sanpham {
+        padding: 0;
+    }
+
+        /*Cột tên loại và phân loại rèm*/
+        .trangchu > .sanpham > .loaisanpham > .phanloai {
+            padding: 0;
+        }
+
+            .trangchu > .sanpham > .loaisanpham > .phanloai > .link {
+                margin: 0 0 1em 0;
+            }
+
+        /*Các sản phẩm của từng loại*/
+        .trangchu > .sanpham > .loaisanpham > .sub > div {
+            height: 15em;
+        }
+
+            .trangchu > .sanpham > .loaisanpham > .sub > div > a {
+                padding: 0;
+            }
+
+                .trangchu > .sanpham > .loaisanpham > .sub > div > a > img {
+                    width: 90%;
+                    height: 10em;
+                }
+
+                .trangchu > .sanpham > .loaisanpham > .sub > div > a > p {
+                    font-size: 1em;
+                }
+
+    /*Tin tức*/
+    .trangchu > .tintuc {
+        height: 1%;
+        overflow: hidden;
+        width: 100%;
+        margin: 1em 0;
+    }
+
+        /*Ô video*/
+        .trangchu > .tintuc > .video > iframe {
+            width: 100%;
+        }
+
+        /*các tin tức*/
+        .trangchu > .tintuc > .cactintuc {
+            height: 100%;
+        }
+
+            /*Tin lớn*/
+            .trangchu > .tintuc > .cactintuc > .news {
+                height: 1%;
+                overflow: hidden;
+            }
+
+                .trangchu > .tintuc > .cactintuc > .news > p {
+                    margin: 1em 0;
+                }
+
+            /*Danh sách tin tức*/
+            .trangchu > .tintuc > .cactintuc > .list {
+                height: 1%;
+                overflow: hidden;
+            }
+}

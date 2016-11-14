@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8472ccb515314c3f8c04200dec81c497" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="ManhRemModel.Banner" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Category" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.CategoryProduct" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Contact" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Order" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Post" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Product" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManhRemModel.Video" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ManhRemModel.FK_Category_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ManhRemModel.FK_CategoryProduct_CategoryProduct" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ManhRemModel.User" Width="1.5" PointX="11.625" PointY="3.875" />
+        <EntityTypeShape EntityType="ManhRemModel.webpages_Membership" Width="1.5" PointX="3.375" PointY="8.75" />
+        <EntityTypeShape EntityType="ManhRemModel.webpages_OAuthMembership" Width="1.5" PointX="9.375" PointY="6.75" />
+        <EntityTypeShape EntityType="ManhRemModel.webpages_Roles" Width="1.5" PointX="9.375" PointY="3.875" />
+        <AssociationConnector Association="ManhRemModel.webpages_UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

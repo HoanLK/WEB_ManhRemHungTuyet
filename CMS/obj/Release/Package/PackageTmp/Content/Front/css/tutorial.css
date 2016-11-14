@@ -1,0 +1,287 @@
+/*Trang hướng dẫn*/
+.tutorial {
+    height: 1%;
+    overflow: hidden;
+}
+
+    /*Danh mục, bài viết nổi bật, có thể bạn quan tâm*/
+    .tutorial > aside {
+    }
+
+        /*Danh mục*/
+        .tutorial > aside > .danhmuc {
+        }
+
+            .tutorial > aside > .danhmuc > ul {
+                list-style: none;
+                text-align: center;
+                padding: 0;
+                border: solid 1px rgb(12, 123, 7);
+            }
+
+                .tutorial > aside > .danhmuc > ul > .tieude {
+                    background: rgb(12, 123, 7);
+                    font-family: Roboto-Black;
+                    font-size: 1.5em;
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                    padding: 0.5em 0;
+                    height: 2.5em;
+                }
+
+                .tutorial > aside > .danhmuc > ul > li {
+                    padding: 0 1em;
+                }
+
+                    .tutorial > aside > .danhmuc > ul > li > a {
+                        display: block;
+                        border-bottom: solid 1px rgb(12, 123, 7);
+                        padding: 0.5em 0;
+                        font-family: Roboto-Regular;
+                        font-size: 1.2em;
+                        color: rgba(0, 0, 0, .6);
+                        text-decoration: none;
+                        transition: all .3s ease-in-out;
+                    }
+
+                        .tutorial > aside > .danhmuc > ul > li > a:hover {
+                            color: rgb(12, 123, 7);
+                            font-weight: bold;
+                        }
+
+                .tutorial > aside > .danhmuc > ul > .line-end {
+                }
+
+                    .tutorial > aside > .danhmuc > ul > .line-end > a {
+                        border-bottom: none;
+                    }
+
+
+        /*Bài viết nổi bật*/
+        .tutorial > aside > .noibat {
+            height: 1%;
+            overflow: hidden;
+            margin: 1em 0;
+        }
+
+            .tutorial > aside > .noibat > .tieude {
+                font-family: Roboto-Regular;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(12, 123, 7);
+                margin: 1em 0;
+                padding: 0;
+            }
+
+            .tutorial > aside > .noibat > .cacbaiviet {
+                padding: 0;
+            }
+
+                .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet {
+                    padding: 0;
+                    margin: 0 0 2em;
+                }
+
+                    .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet > a {
+                        padding: 0;
+                        text-decoration: none;
+                    }
+
+                        .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet > a > img {
+                            padding: 0;
+                            margin: 0 0 1em 0;
+                        }
+
+                        .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet > a > p {
+                            font-family: Roboto-Regular;
+                            font-size: 1.3em;
+                            color: rgba(0, 0, 0, .6);
+                            font-weight: bold;
+                            text-align: justify;
+                            padding: 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet > a:hover > p {
+                            color: rgb(12, 123, 7);
+                        }
+
+        /*Có thể bạn quan tâm*/
+        .tutorial > aside > .quantam {
+            height: 1%;
+            overflow: hidden;
+            margin: 1em 0;
+        }
+
+            .tutorial > aside > .quantam > .tieude {
+                font-family: Roboto-Regular;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(12, 123, 7);
+                margin: 1em 0;
+                padding: 0;
+            }
+
+            .tutorial > aside > .quantam > .cacbaiviet {
+                padding: 0;
+            }
+
+                .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet {
+                    padding: 0;
+                    margin: 0 0 2em;
+                }
+
+                    .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet > a {
+                        padding: 0;
+                        text-decoration: none;
+                    }
+
+                        .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet > a > img {
+                            padding: 0;
+                            margin: 0 0 1em 0;
+                        }
+
+                        .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet > a > p {
+                            font-family: Roboto-Regular;
+                            font-size: 1.3em;
+                            color: rgba(0, 0, 0, .6);
+                            font-weight: bold;
+                            text-align: justify;
+                            padding: 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet > a:hover > p {
+                            color: rgb(12, 123, 7);
+                        }
+
+    /*Danh sách bài viết*/
+    .tutorial > .danhsachbaiviet {
+        padding: 0;
+    }
+
+        /*Từng bài viết*/
+        .tutorial > .danhsachbaiviet > .baiviet {
+            height: 1%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0 0 3em 0;
+        }
+
+            /*Ảnh đại diện*/
+            .tutorial > .danhsachbaiviet > .baiviet > img {
+                padding: 0;
+                height: 10em;
+            }
+
+            /*Thông tin bài viết*/
+            .tutorial > .danhsachbaiviet > .baiviet > .info {
+            }
+
+                /*Tiêu đề*/
+                .tutorial > .danhsachbaiviet > .baiviet > .info > a {
+                    font-family: Roboto-Black;
+                    font-size: 1.5em;
+                    color: rgba(0, 0, 0, .6);
+                    text-decoration: none;
+                    transition: all .3s ease-in-out;
+                }
+
+                    .tutorial > .danhsachbaiviet > .baiviet > .info > a:hover {
+                        color: rgb(12, 123, 7);
+                    }
+
+                /*Nút like, share*/
+                .tutorial > .danhsachbaiviet > .baiviet > .info > .social {
+                    margin: 0.5em 0 0 0;
+                }
+
+                    .tutorial > .danhsachbaiviet > .baiviet > .info > .social > iframe {
+                    }
+
+                /*Tóm tắt bài viết*/
+                .tutorial > .danhsachbaiviet > .baiviet > .info > .detail {
+                    font-family: Roboto-Light;
+                    font-size: 1em;
+                    text-align: justify;
+                }
+
+                    /*Xem thêm*/
+                    .tutorial > .danhsachbaiviet > .baiviet > .info > .detail > a {
+                        font-family: Roboto-Regular;
+                        font-style: italic;
+                        color: rgb(12, 123, 7);
+                        text-decoration: none;
+                        transition: all .1s ease-in-out;
+                    }
+
+                        .tutorial > .danhsachbaiviet > .baiviet > .info > .detail > a:hover {
+                            font-weight: bold;
+                        }
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*Danh mục*/
+    .tutorial > aside > .danhmuc > ul > .tieude {
+        font-size: 2em;
+        height: 4em;
+    }
+
+    .tutorial > aside > .danhmuc > ul > li {
+        padding: 0 1em;
+    }
+
+    /*Có thể bạn quan tâm*/
+    .tutorial > aside > .quantam > .tieude {
+        font-size: 1.2em;
+    }
+
+    /*Danh sách bài viết*/
+    /*Ảnh đại diện*/
+    .tutorial > .danhsachbaiviet > .baiviet > img {
+        height: 11em;
+    }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Danh sách bài viết*/
+    .tutorial > .danhsachbaiviet {
+        margin: 2em 0 0 1em;
+    }
+
+        /*Ảnh đại diện*/
+        .tutorial > .danhsachbaiviet > .baiviet > img {
+            height: 11em;
+        }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Danh sách bài viết*/
+    .tutorial > .danhsachbaiviet {
+        margin: 2em 0 0 0;
+    }
+        /*Ảnh đại diện*/
+        .tutorial > .danhsachbaiviet > .baiviet > img {
+            height: 20em;
+        }
+
+        /*Thông tin bài viết*/
+        .tutorial > .danhsachbaiviet > .baiviet > .info {
+            padding: 0;
+        }
+
+            /*Tiêu đề*/
+            .tutorial > .danhsachbaiviet > .baiviet > .info > a {
+                padding: 0;
+            }
+            /*Nút like, share*/
+            .tutorial > .danhsachbaiviet > .baiviet > .info > .social {
+                padding: 0;
+            }
+}

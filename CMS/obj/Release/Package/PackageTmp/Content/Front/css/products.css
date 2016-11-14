@@ -1,0 +1,264 @@
+﻿
+/*Trang cho từng sản phẩm*/
+.tungsanpham {
+    padding: 0;
+}
+
+    /*Phần nội dung trang*/
+    .tungsanpham > article {
+    }
+
+        .tungsanpham > article > img {
+            height: 25em;
+        }
+
+        .tungsanpham > article > .info {
+        }
+
+            /*Tên sản phẩm*/
+            .tungsanpham > article > .info > p {
+                font-family: Roboto-Black;
+                font-size: 2em;
+                color: rgb(12, 123, 7);
+                padding: 0;
+            }
+
+            /*Nút mua hàng*/
+            .tungsanpham > article > .info > button {
+                background: rgba(12, 123, 7, .6);
+                font-family: Roboto-Light;
+                font-size: 1.3em;
+                color: rgb(255, 255, 255);
+                padding: 0.5em 1em;
+                margin: 0 0 1em 0;
+                border: none;
+                transition: all .1s ease-in-out;
+            }
+
+                .tungsanpham > article > .info > button:hover {
+                    background: rgb(12, 123, 7);
+                    font-family: Roboto-Black;
+                }
+
+            /*Thông tin sản phẩm*/
+            .tungsanpham > article > .info > div {
+                padding: 0;
+                margin: 0 0 1em 0;
+            }
+
+                .tungsanpham > article > .info > div > .card {
+                }
+
+                    .tungsanpham > article > .info > div > .card > .nav-tabs {
+                        border-bottom: 2px solid #DDD;
+                    }
+
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a,
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a:focus,
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a:hover {
+                            border-width: 0;
+                        }
+
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li > a {
+                            border: none;
+                            color: #666;
+                        }
+
+                            .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a,
+                            .tungsanpham > article > .info > div > .card > .nav-tabs > li > a:hover {
+                                border: none;
+                                color: rgb(12, 123, 7) !important;
+                                background: transparent;
+                            }
+
+                            .tungsanpham > article > .info > div > .card > .nav-tabs > li > a::after {
+                                content: "";
+                                background: rgb(12, 123, 7);
+                                height: 2px;
+                                position: absolute;
+                                width: 100%;
+                                left: 0px;
+                                bottom: -1px;
+                                transition: all 250ms ease 0s;
+                                transform: scale(0);
+                            }
+
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a::after,
+                        .tungsanpham > article > .info > div > .card > .nav-tabs > li:hover > a::after {
+                            transform: scale(1);
+                        }
+
+                    .tungsanpham > article > .info > div > .card > .tab-content {
+                        padding: 20px;
+                    }
+
+                        .tungsanpham > article > .info > div > .card > .tab-content.tab-pane {
+                            padding: 15px 0;
+                        }
+
+            /*Sđt liên hệ*/
+            .tungsanpham > article > .info > a {
+                font-family: Roboto-Black;
+                font-size: 1.5em;
+                text-decoration: none;
+                color: rgb(12, 123, 7);
+            }
+
+                .tungsanpham > article > .info > a > i {
+                    margin: 0 0.4em;
+                }
+
+                .tungsanpham > article > .info > a > span {
+                    text-transform: uppercase;
+                    color: rgb(255, 0, 0);
+                }
+
+    /*sản phẩm cùng loại*/
+    .tungsanpham > aside {
+    }
+
+        /*Tiêu đề*/
+        .tungsanpham > aside > p {
+            font-family: Roboto-Black;
+            font-size: 2em;
+            color: rgb(12, 123, 7);
+            border-bottom: solid 2px;
+            padding: 0;
+        }
+
+        /*Danh sách sản phẩm*/
+        .tungsanpham > aside > .cacsanpham {
+            padding: 0;
+        }
+
+            /*Từng sản phẩm*/
+            .tungsanpham > aside > .cacsanpham > .sanpham {
+                padding: 0;
+                margin: 0 0 1.5em 0;
+            }
+
+                .tungsanpham > aside > .cacsanpham > .sanpham > a {
+                    color: rgb(0, 0, 0);
+                    padding: 0;
+                }
+
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a > img {
+                        padding: 0;
+                    }
+
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a > .info {
+                        padding: 0;
+                    }
+
+                        .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .title {
+                            font-family: Roboto-Black;
+                            padding: 0 0 0 1em;
+                            margin: 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a:hover > .info > .title {
+                        color: rgb(12, 123, 7);
+                    }
+
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .detail {
+                        font-family: Roboto-Light;
+                        text-align: justify;
+                        padding: 0 0 0 1em;
+                    }
+
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*Tiêu đề*/
+    .tungsanpham > aside > p {
+        font-size: 1.6em;
+    }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .tungsanpham {
+        margin: 3em 0;
+    }
+
+        /*sản phẩm cùng loại*/
+        .tungsanpham > aside {
+            margin: 4em 0;
+        }
+
+            /*Tiêu đề*/
+            .tungsanpham > aside > p {
+                border-top: solid 2px;
+                padding: 0;
+                width: 40%;
+                left: 30%;
+                margin: 2em 0;
+            }
+
+            .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .title {
+                font-size: 2em;
+            }
+
+            .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .detail {
+                font-size: 1.5em;
+            }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    .tungsanpham {
+        margin: 3em 0;
+    }
+
+        /*Phần nội dung trang*/
+        .tungsanpham > article {
+        }
+
+            .tungsanpham > article > img {
+                height: 20em;
+            }
+            /*Tên sản phẩm*/
+            .tungsanpham > article > .info > p {
+                font-size: 1.8em;
+            }
+
+            .tungsanpham > article > .info > div > .card > .nav-tabs > li {
+                width: 50%;
+            }
+
+                .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a,
+                .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a:focus,
+                .tungsanpham > article > .info > div > .card > .nav-tabs > li.active > a:hover {
+                    border-width: 0;
+                }
+
+                .tungsanpham > article > .info > div > .card > .nav-tabs > li > a {
+                    padding: 0.5em 0;
+                    width: 100%;
+                    text-align: center;
+                }
+
+            /*Sđt liên hệ*/
+            .tungsanpham > article > .info > a {
+                text-align: center;
+            }
+
+        /*sản phẩm cùng loại*/
+        .tungsanpham > aside {
+            margin: 2em 0 0 0;
+        }
+
+            /*Tiêu đề*/
+            .tungsanpham > aside > p {
+                border-top: solid 2px;
+                width: 90%;
+                left: 5%;
+                text-align: center;
+                margin: 0 0 1em 0;
+            }
+}

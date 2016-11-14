@@ -1,0 +1,63 @@
+﻿@model CMS.Models.Category
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<!--Trang hướng dẫn-->
+<section class="tutorial col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <!--Danh mục sản phẩm & Bài viết nổi bật & có thể bạn quan tâm-->
+    <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
+
+        <!--Danh mục-->
+        <div class="danhmuc col-md-12 col-lg-12" ng-controller="categoryProductController">
+            <ul>
+                <li class="tieude">Danh mục sản phẩm</li>
+                <li><a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" ng-repeat="(index, value) in categoryProducts">{{value.title}}</a></li>
+            </ul>
+        </div>
+
+        <!--Bài viết nổi bật-->
+        <div class="noibat col-md-12 col-lg-12" ng-controller="categoryPostController">
+            <p class="tieude col-md-12 col-lg-12">Bài viết nổi bật</p>
+            <div class="cacbaiviet col-md-12 col-lg-12">
+                <div class="tungbaiviet col-md-12 col-lg-12" dir-paginate="(index, value) in baiVietTops | itemsPerPage:4">
+                    <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">
+                        <img ng-src="{{value.image}}" alt="{{value.title}}" class="col-md-12 col-lg-12" />
+                        <p class="col-md-12 col-lg-12">{{value.title}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Có thể bạn quan tâm-->
+        <div class="quantam col-sm-12 col-md-12 col-lg-12" ng-controller="categoryPostController">
+            <p class="tieude col-sm-12 col-md-12 col-lg-12">Có thể bạn quan tâm</p>
+            <div class="cacbaiviet col-sm-12 col-md-12 col-lg-12">
+                <div class="tungbaiviet col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in congTrinhNoiBats | itemsPerPage:4">
+                    <a href="/bai-viet/{{value.alias}}-{{value.idPost}}">
+                        <img ng-src="{{value.image}}" alt="{{value.title}}" class="col-md-12 col-lg-12" />
+                        <p class="col-md-12 col-lg-12">{{value.title}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!--Danh sách bài viết-->
+    <article class="danhsachbaiviet col-xs-12 col-sm-12 col-md-9 col-lg-9" ng-controller="categoryPostController">
+        <input type="hidden" value="@Model.idCategory" id="idCategory" />
+        <span us-spinner="{radius:15, width:4, length: 8}"></span>
+        <div class="baiviet col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in posts">
+            <img ng-src="{{value.image}}" alt="{{value.title}}" class="col-xs-12 col-sm-2 col-md-2 col-lg-2" />
+            <div class="info col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{value.title}}</a>
+                <div class="social col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fketnoitrejsc.com&width=450&layout=standard&action=like&size=small&show_faces=false&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+                <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    {{value.description}}<a href="/bai-viet/{{value.alias}}-{{value.idPost}}">Xem tiếp</a>
+                </p>
+            </div>
+        </div>
+    </article>
+</section>

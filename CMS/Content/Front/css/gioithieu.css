@@ -1,0 +1,369 @@
+﻿.about-us {
+    height: 1%;
+    overflow: hidden;
+}
+
+    /*Giới thiệu về công ty*/
+    .about-us > .gioithieu {
+        height: 1%;
+        overflow: hidden;
+        margin: 2em 0 3em 0;
+    }
+
+        /*Ảnh*/
+        .about-us > .gioithieu > img {
+        }
+
+        /*Thông tin công ty*/
+        .about-us > .gioithieu > .info {
+            padding: 0;
+        }
+
+            /*Tên công ty*/
+            .about-us > .gioithieu > .info > .co-name {
+                font-family: Roboto-Black;
+                font-size: 1.8em;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 0 2em;
+            }
+
+            /*Thông tin*/
+            .about-us > .gioithieu > .info > .co-info {
+                font-family: Roboto-Light;
+                font-size: 1.3em;
+                line-height: 2em;
+                letter-spacing: 0.05em;
+            }
+
+                .about-us > .gioithieu > .info > .co-info > .first {
+                    font-family: Roboto-Regular;
+                    font-weight: bold;
+                }
+
+                .about-us > .gioithieu > .info > .co-info > .nganhnghe {
+                    font-family: Roboto-Regular;
+                    text-align: center;
+                    display: block;
+                    text-transform: uppercase;
+                    letter-spacing: 0.2em;
+                }
+
+    /*Danh mục sản phẩm & Bài viết nối bật & có thể bạn quan tâm*/
+    .about-us > aside {
+    }
+
+        /*Danh mục*/
+        .about-us > aside > .danhmuc {
+        }
+
+            .about-us > aside > .danhmuc > ul {
+                list-style: none;
+                text-align: center;
+                padding: 0;
+                border: solid 1px rgb(12, 123, 7);
+            }
+
+                .about-us > aside > .danhmuc > ul > .tieude {
+                    background: rgb(12, 123, 7);
+                    font-family: Roboto-Black;
+                    font-size: 1.5em;
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                    padding: 0.5em 0;
+                    height: 2.5em;
+                }
+
+                .about-us > aside > .danhmuc > ul > li {
+                    padding: 0 1em;
+                }
+
+                    .about-us > aside > .danhmuc > ul > li > a {
+                        display: block;
+                        border-bottom: solid 1px rgb(12, 123, 7);
+                        padding: 0.5em 0;
+                        font-family: Roboto-Regular;
+                        font-size: 1.2em;
+                        color: rgba(0, 0, 0, .6);
+                        text-decoration: none;
+                        transition: all .3s ease-in-out;
+                    }
+
+                        .about-us > aside > .danhmuc > ul > li > a:hover {
+                            color: rgb(12, 123, 7);
+                            font-weight: bold;
+                        }
+
+                .about-us > aside > .danhmuc > ul > .line-end {
+                }
+
+                    .about-us > aside > .danhmuc > ul > .line-end > a {
+                        border-bottom: none;
+                    }
+
+        /*Bài viết nổi bật*/
+        .about-us > aside > .noibat {
+            height: 1%;
+            overflow: hidden;
+            margin: 1em 0;
+        }
+
+            .about-us > aside > .noibat > .tieude {
+                font-family: Roboto-Regular;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(12, 123, 7);
+                margin: 1em 0;
+                padding: 0;
+            }
+
+            .about-us > aside > .noibat > .cacbaiviet {
+                padding: 0;
+            }
+
+                .about-us > aside > .noibat > .cacbaiviet > .tungbaiviet {
+                    padding: 0;
+                    margin: 0 0 2em;
+                }
+
+                    .about-us > aside > .noibat > .cacbaiviet > .tungbaiviet > a {
+                        padding: 0;
+                        text-decoration: none;
+                    }
+
+                        .about-us > aside > .noibat > .cacbaiviet > .tungbaiviet > a > img {
+                            padding: 0;
+                            margin: 0 0 1em 0;
+                        }
+
+                        .about-us > aside > .noibat > .cacbaiviet > .tungbaiviet > a > p {
+                            font-family: Roboto-Regular;
+                            font-size: 1.3em;
+                            color: rgba(0, 0, 0, .6);
+                            font-weight: bold;
+                            text-align: justify;
+                            padding: 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        .about-us > aside > .noibat > .cacbaiviet > .tungbaiviet > a:hover > p {
+                            color: rgb(12, 123, 7);
+                        }
+        /*Có thể bạn quan tâm*/
+        .about-us > aside > .quantam {
+            height: 1%;
+            overflow: hidden;
+            margin: 1em 0;
+        }
+
+            .about-us > aside > .quantam > .tieude {
+                font-family: Roboto-Regular;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                border-bottom: solid 2px rgb(12, 123, 7);
+                margin: 1em 0;
+                padding: 0;
+            }
+
+            .about-us > aside > .quantam > .cacbaiviet {
+                padding: 0;
+            }
+
+                .about-us > aside > .quantam > .cacbaiviet > .tungbaiviet {
+                    padding: 0;
+                    margin: 0 0 2em;
+                }
+
+                    .about-us > aside > .quantam > .cacbaiviet > .tungbaiviet > a {
+                        padding: 0;
+                        text-decoration: none;
+                    }
+
+                        .about-us > aside > .quantam > .cacbaiviet > .tungbaiviet > a > img {
+                            padding: 0;
+                            margin: 0 0 1em 0;
+                        }
+
+                        .about-us > aside > .quantam > .cacbaiviet > .tungbaiviet > a > p {
+                            font-family: Roboto-Regular;
+                            font-size: 1.3em;
+                            color: rgba(0, 0, 0, .6);
+                            font-weight: bold;
+                            text-align: justify;
+                            padding: 0;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        .about-us > aside > .quantam > .cacbaiviet > .tungbaiviet > a:hover > p {
+                            color: rgb(12, 123, 7);
+                        }
+
+    /*Bài viết chính*/
+    .about-us > .baiviet {
+        padding: 0;
+    }
+
+        .about-us > .baiviet > p {
+            font-family: Roboto-Light;
+            font-size: 1.3em;
+            text-indent: 2em;
+            text-align: justify;
+            line-height: 1.5;
+            height: 1%;
+            overflow: hidden;
+            margin: 1em 0;
+        }
+
+        .about-us > .baiviet > img {
+            height: 25em;
+            margin: 1em 0;
+        }
+
+        .about-us > .baiviet > .camon {
+            color: rgb(12, 123, 7);
+            font-weight: bold;
+            text-align: center;
+        }
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+    /*Bài viết chính*/
+    .about-us > .baiviet > img {
+        height: 23em;
+    }
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    .about-us {
+    }
+
+        /*Tên công ty*/
+        .about-us > .gioithieu > .info > .co-name {
+            font-size: 1.5em;
+        }
+
+        /*Thông tin*/
+        .about-us > .gioithieu > .info > .co-info {
+            letter-spacing: 0em;
+        }
+
+            .about-us > .gioithieu > .info > .co-info > .nganhnghe {
+                letter-spacing: 0.1em;
+            }
+
+        /*Danh mục sản phẩm & Bài viết nối bật & có thể bạn quan tâm*/
+        .about-us > aside {
+        }
+
+            /*Danh mục*/
+            .about-us > aside > .danhmuc > ul > .tieude {
+                font-size: 1.15em;
+            }
+
+            /*Có thể bạn quan tâm*/
+            .about-us > aside > .quantam > .tieude {
+                font-size: 1.2em;
+            }
+
+        /*Bài viết chính*/
+        .about-us > .baiviet > img {
+            height: 21em;
+        }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Giới thiệu về công ty*/
+    .about-us > .gioithieu {
+    }
+
+        /*Ảnh*/
+        .about-us > .gioithieu > img {
+            height: 20em;
+        }
+
+        /*Tên công ty*/
+        .about-us > .gioithieu > .info > .co-name {
+            font-size: 1.3em;
+        }
+
+        /*Thông tin*/
+        .about-us > .gioithieu > .info > .co-info {
+            font-size: 1em;
+        }
+
+            .about-us > .gioithieu > .info > .co-info > .nganhnghe {
+                letter-spacing: 0.1em;
+            }
+
+    /*Bài viết chính*/
+    .about-us > .baiviet > p {
+        font-size: 1.2em;
+    }
+
+    .about-us > .baiviet > img {
+        height: 18em;
+    }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    /*Giới thiệu về công ty*/
+    .about-us > .gioithieu {
+        padding: 0;
+    }
+
+        /*Ảnh*/
+        .about-us > .gioithieu > img {
+            padding: 0;
+            margin: 0 0 1em 0;
+        }
+
+        /*Thông tin công ty*/
+        .about-us > .gioithieu > .info {
+        }
+
+            /*Tên công ty*/
+            .about-us > .gioithieu > .info > .co-name {
+                font-size: 1.1em;
+                padding: 0;
+            }
+
+            /*Thông tin*/
+            .about-us > .gioithieu > .info > .co-info {
+                font-size: 1em;
+                line-height: 2em;
+                letter-spacing: 0.02em;
+                padding: 0;
+            }
+
+                .about-us > .gioithieu > .info > .co-info > .first {
+                }
+
+                .about-us > .gioithieu > .info > .co-info > .nganhnghe {
+                    letter-spacing: 0.08em;
+                }
+
+    /*Bài viết chính*/
+    .about-us > .baiviet {
+        padding: 0;
+    }
+
+        .about-us > .baiviet > p {
+            font-size: 1em;
+            text-indent: 1.5em;
+            padding: 0;
+        }
+
+        .about-us > .baiviet > img {
+            height: 15em;
+            margin: 1em 0;
+        }
+
+        .about-us > .baiviet > .camon {
+            color: rgb(12, 123, 7);
+            font-weight: bold;
+            text-align: center;
+        }
+}

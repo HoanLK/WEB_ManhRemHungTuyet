@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Liên hệ";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<section class="about-us tutorial col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <!--Giới thiệu về công ty-->
+    <article class="gioithieu col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <img src="~/Content/Front/images/gioithieu/banner.png" alt="" class="col-xs-12 col-sm-6 col-md-7 col-lg-7" />
+        <div class="info col-xs-12 col-sm-6 col-md-5 col-lg-5">
+            <p class="co-name col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                công ty TNHH SX thương mại và dịch vụ hùng tuyết
+            </p>
+            <p class="co-info col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <span class="first">Đại diện: </span>(Bà) Nguyễn Thị Tuyết<br />
+                <span class="first">Chức vụ: </span>Chủ doanh nghiệp<br />
+                <span class="first">Địa chỉ: </span>43N Lê Lai, Ngô Quyền, Hải Phòng.<br />
+                <span class="first">Điện thoại: </span>0313.654.097 - 0904.482.018<br />
+                <span class="first">Email: </span>hungtuyet1970@gmail.com<br />
+                <span class="first">Ngành nghề kinh doanh: </span><br /><span class="nganhnghe">CHĂN GA - MÀNH RÈM - GỐI ĐỆM</span>
+            </p>
+        </div>
+    </article>
+
+    <!--Danh mục sản phẩm & Bài viết nổi bật & có thể bạn quan tâm-->
+    <aside class="hidden-xs hidden-sm col-md-3 col-lg-3">
+
+        <!--Danh mục-->
+        <div class="danhmuc col-md-12 col-lg-12" ng-controller="categoryProductController">
+            <ul>
+                <li class="tieude">Danh mục sản phẩm</li>
+                <li><a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" ng-repeat="(index, value) in categoryProducts">{{value.title}}</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 lienHe" ng-controller="ContactController">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 thongTin">
+            <div class="form-group" ng-class="{'has-error':!Contact.hoten, 'has-success':Contact.hoten}">
+                <input type="text" class="form-control" id="name" placeholder="Họ tên (bắt buộc)" ng-model="Contact.hoten">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="diachi" placeholder="Địa chỉ" ng-model="Contact.diachi">
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-12" ng-class="{'has-error':!Contact.sdt, 'has-success':Contact.sdt}" style="padding-left:0;">
+                <input type="text" class="form-control" id="sdt" placeholder="Số điện thoại (bắt buộc)" ng-model="Contact.sdt">
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                <input type="email" class="form-control" id="email" placeholder="Email" ng-model="Contact.email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="tieude" placeholder="Tiêu đề liên hệ" ng-model="Contact.title">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="10" id="noidung" placeholder="Nội dung liên hệ" ng-model="Contact.content"></textarea>
+            </div>
+            <button type="button" class="btn btn-info" ng-click="SaveContact()">Gửi</button>
+        </div>
+    </div>
+</section>

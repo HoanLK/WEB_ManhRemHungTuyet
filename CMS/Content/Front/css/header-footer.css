@@ -1,0 +1,1221 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: rgb(244, 244, 244);
+}
+
+header {
+    padding: 0 !important;
+    background: rgb(255, 255, 255);
+}
+
+    /*header cho desktop*/
+    header > .desktop {
+        height: 1%;
+        overflow: hidden;
+        padding: 0;
+    }
+
+        /*Phần logo công ty & sologan*/
+        header > .desktop > .header-top {
+            height: 1%;
+            overflow: hidden;
+        }
+
+            /*Phần logo*/
+            header > .desktop > .header-top > .logo {
+                padding: 1em 0;
+            }
+
+                header > .desktop > .header-top > .logo > a {
+                }
+
+                    header > .desktop > .header-top > .logo > a > img {
+                    }
+
+                    header > .desktop > .header-top > .logo > a > p {
+                        font-family: Roboto-Regular;
+                        font-size: 1.5em;
+                        color: red;
+                        text-transform: uppercase;
+                        margin: 0;
+                        padding: 0.6em 0 0 0;
+                    }
+
+            /*Phần sologan*/
+            header > .desktop > .header-top > .sologan {
+            }
+
+                header > .desktop > .header-top > .sologan > div {
+                }
+
+                    header > .desktop > .header-top > .sologan > div > img {
+                    }
+
+                header > .desktop > .header-top > .sologan > p {
+                    font-family: Roboto-Light;
+                    font-size: 1.3em;
+                    text-align: center;
+                }
+
+        /*Menu*/
+        header > .desktop > .menu {
+            background: rgb(0, 110, 223);
+            height: 1%;
+            overflow: hidden;
+            padding: 0;
+        }
+
+            /*Phần menu*/
+            header > .desktop > .menu > .list {
+                list-style: none;
+                margin: 0;
+                padding: 0 0 0 2em;
+            }
+
+                header > .desktop > .menu > .list > li {
+                    float: left;
+                }
+
+                    header > .desktop > .menu > .list > li > a {
+                        font-size: 1.3em;
+                        color: rgb(255, 255, 255);
+                        display: block;
+                        padding: 0.5em 1.2em;
+                        text-decoration: none;
+                        transition: all .3s ease-in-out;
+                    }
+
+                        header > .desktop > .menu > .list > li > a:hover {
+                            background: rgb(255, 255, 255);
+                            color: rgb(0, 110, 223);
+                        }
+
+                        header > .desktop > .menu > .list > li > a > i {
+                            margin: 0 0.5em;
+                        }
+
+            /*Phần logo mạng xã hội*/
+            header > .desktop > .menu > .social {
+                list-style: none;
+                margin: 0 0 0 -5em;
+                padding: 0;
+            }
+
+                header > .desktop > .menu > .social > li {
+                    float: left;
+                }
+
+                    header > .desktop > .menu > .social > li > a {
+                        font-size: 1.3em;
+                        color: rgb(255, 255, 255);
+                        display: block;
+                        padding: 0.7em 1em;
+                        text-decoration: none;
+                        transition: all .3s ease-in-out;
+                    }
+
+                        header > .desktop > .menu > .social > li > a:hover {
+                            background: rgb(255, 255, 255);
+                            color: rgb(0, 110, 223);
+                        }
+
+/*Phần footer*/
+footer {
+    padding: 2em 0;
+    height: 1%;
+    overflow: hidden;
+    border-top: solid 3px rgb(8, 148, 21);
+}
+
+    /*Thông tin và địa chỉ*/
+    footer > .add {
+    }
+
+        /*Thôn tin*/
+        footer > .add > .info {
+            padding: 0;
+        }
+
+            footer > .add > .info > .co-name {
+                font-family: Roboto-Black;
+                font-size: 1.4em;
+                margin: 0;
+            }
+
+            footer > .add > .info > .co-if {
+                font-family: Roboto-Light;
+            }
+
+                footer > .add > .info > .co-if > span {
+                    font-weight: bold;
+                    line-height: 1.8em;
+                }
+
+        /*Bản đồ*/
+        footer > .add > .map {
+        }
+
+            footer > .add > .map > iframe {
+                width: 100%;
+                height: 25em;
+            }
+
+    /*Nhận thông tin và mạng xã hội*/
+    footer > .follow {
+    }
+
+        /*Phần đăng ký nhận tin*/
+        footer > .follow > .chanel {
+            font-family: Roboto-Light;
+            line-height: 1.8em;
+            margin: 0;
+        }
+
+            footer > .follow > .chanel > span {
+                font-family: Roboto-Black;
+                font-size: 1.4em;
+            }
+
+        footer > .follow > .signup {
+            height: 1%;
+            overflow: hidden;
+        }
+
+            footer > .follow > .signup > input {
+                font-family: Roboto-Light;
+                transition: all 0.3s ease-in-out;
+                margin: 0 0 1em 0;
+                width: 60%;
+                display: block;
+                border: none;
+                padding: 0.6em 0;
+                border-bottom: solid 1px rgb(12, 123, 7);
+                -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+                transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+                background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, rgb(12, 123, 7) 4%);
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, rgb(12, 123, 7) 4%);
+                background-position: -20em 0;
+                background-size: 105%;
+                background-repeat: no-repeat;
+                color: #0e6252;
+                float: left;
+            }
+
+                footer > .follow > .signup > input:focus, input:valid {
+                    box-shadow: none;
+                    outline: none;
+                    background-position: 0 0;
+                }
+
+            footer > .follow > .signup > button {
+                font-family: Roboto-Light;
+                transition: all 0.3s ease-in-out;
+                border: none;
+                background: rgb(12, 123, 7);
+                cursor: pointer;
+                border-radius: 3px;
+                padding: 6px;
+                width: 30%;
+                color: white;
+                margin: 0.5em 0 0 2em;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+            }
+
+                footer > .follow > .signup > button:hover {
+                    -webkit-transform: translateY(-3px);
+                    -ms-transform: translateY(-3px);
+                    transform: translateY(-3px);
+                }
+
+        /*Phần mạng xã hội*/
+        footer > .follow > .social {
+            height: 3em;
+        }
+
+            footer > .follow > .social > a {
+                font-size: 2em;
+                color: rgba(0, 0, 0, .6);
+                text-decoration: none;
+                margin: 0em 0.5em 0.5em 0;
+                transition: all .3s ease-in-out;
+            }
+
+            footer > .follow > .social > .fa-facebook-square:hover {
+                color: rgb(59, 89, 152);
+            }
+
+            footer > .follow > .social > .fa-twitter-square:hover {
+                color: rgb(29, 161, 242);
+            }
+
+            footer > .follow > .social > .fa-instagram:hover {
+                color: rgb(248, 142, 74);
+            }
+
+            footer > .follow > .social > .fa-google-plus-square:hover {
+                color: rgb(205, 67, 55);
+            }
+
+            footer > .follow > .social > .fa-youtube-square:hover {
+                color: rgb(238, 28, 27);
+            }
+
+        /*Phần facebook*/
+        footer > .follow > .like {
+            width: 100%;
+            height: 20em;
+        }
+
+            footer > .follow > .like > iframe {
+                width: 100%;
+                height: 100%;
+            }
+
+    /*Menu*/
+    footer > .menu {
+    }
+
+        footer > .menu > ul {
+            list-style: none;
+        }
+
+            footer > .menu > ul > li {
+            }
+
+                footer > .menu > ul > li > a {
+                    font-family: Roboto-Regular;
+                    font-size: 1.5em;
+                    color: rgb(0, 0, 0);
+                    line-height: 1.8em;
+                    text-decoration: none;
+                    transition: all .3s ease-in-out;
+                }
+
+                    footer > .menu > ul > li > a:hover {
+                        font-size: 1.8em;
+                        color: rgb(12, 123, 7);
+                    }
+
+
+/*Giao diện cho màn hình lớn*/
+@media (min-width: 1400px) {
+}
+
+/*Giao diện cho tablet (ngang)*/
+@media (min-width: 992px) and (max-width: 1024px) {
+    /*Phần logo*/
+    header > .desktop > .header-top > .logo > a > p {
+        padding: 0.3em 0 0 0;
+    }
+
+    /*Phần sologan*/
+    header > .desktop > .header-top > .sologan > div > img {
+        width: 100%;
+    }
+
+    /*Phần menu*/
+    header > .desktop > .menu > .list > li > a {
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+    }
+
+    /*Phần logo mạng xã hội*/
+    header > .desktop > .menu > .social {
+        margin: 0;
+    }
+
+        header > .desktop > .menu > .social > li > a {
+            font-size: 1.12em;
+            padding: 0.7em 1em;
+        }
+}
+
+/*Giao diện cho tablet (dọc)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .fixed {
+        height: 80px;
+    }
+
+    header {
+        position: static;
+    }
+
+    .dl-menuwrapper {
+        width: 100%;
+        height: 80px;
+        float: left;
+        position: relative;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-perspective-origin: 50% 200%;
+        perspective-origin: 50% 200%;
+        box-shadow: 0 3px 3px rgba(132,136,138,.1);
+        background: rgb(255, 255, 255);
+        border-bottom: solid 5px rgb(12, 123, 7);
+        z-index: 2000;
+        margin: 0 0 3em 0;
+    }
+
+        .dl-menuwrapper:first-child {
+            margin-right: 0;
+        }
+
+        .dl-menuwrapper div {
+            width: 84%;
+            float: right;
+            margin: 0 0 11px 0;
+        }
+
+            .dl-menuwrapper div .logo {
+                width: 80%;
+                display: block;
+                text-align: center;
+                float: left;
+            }
+
+                .dl-menuwrapper div .logo img {
+                    width: 8em;
+                    padding: 0.8em 0em 0em 0em;
+                }
+
+            .dl-menuwrapper div .search {
+                position: absolute;
+                width: 10%;
+                height: 100%;
+                right: 0.5em;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                background-position-y: 1em;
+            }
+
+                .dl-menuwrapper div .search > i {
+                    color: rgb(12, 123, 7);
+                    font-size: 3em;
+                    margin-top: 0.35em;
+                }
+
+                .dl-menuwrapper div .search:before {
+                    border-left: 1px solid rgba(12, 123, 7, .4);
+                    content: "";
+                    height: 70%;
+                    position: absolute;
+                    top: 15%;
+                    left: -1em;
+                    width: 0;
+                }
+
+    .search-box {
+        z-index: 20;
+        font-family: Roboto-Light;
+        font-size: 1.5em;
+        width: 100%;
+        top: 80px;
+        display: none;
+        border: none;
+        padding: 0.6em 1em;
+        border-bottom: solid 2px rgb(12, 123, 7);
+        float: left;
+    }
+
+    .dl-menuwrapper button {
+        background: rgb(255, 255, 255);
+        border: none;
+        width: 10%;
+        height: 70%;
+        text-indent: -900em;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+        border-right: 1px solid rgba(12, 123, 7, .4);
+        top: 20%;
+    }
+
+        .dl-menuwrapper button:hover,
+        .dl-menuwrapper button.dl-active,
+        .dl-menuwrapper ul {
+            background: rgb(255, 255, 255);
+        }
+
+        .dl-menuwrapper button:after {
+            content: '';
+            position: absolute;
+            width: 70%;
+            height: 10%;
+            background: rgb(12, 123, 7);
+            top: 16%;
+            left: 15%;
+            box-shadow: 0 15px 0 rgb(12, 123, 7), 0 30px 0 rgb(12, 123, 7);
+        }
+
+    .dl-menuwrapper ul {
+        padding: 0;
+        list-style: none;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        background: rgb(12, 123, 7);
+    }
+
+    .dl-menuwrapper li {
+        position: relative;
+    }
+
+        .dl-menuwrapper li a {
+            display: block;
+            position: relative;
+            padding: 1em 1.5em;
+            font-size: 2em;
+            line-height: 20px;
+            font-weight: 300;
+            color: #fff;
+            outline: none;
+            text-decoration: none;
+        }
+
+        .dl-menuwrapper li.dl-back > a {
+            padding-left: 50px;
+            background: rgba(0,0,0,0.1);
+        }
+
+        .dl-menuwrapper li.dl-back:after,
+        .dl-menuwrapper li > a:not(:only-child):after {
+            position: absolute;
+            top: 0;
+            line-height: 50px;
+            font-family: 'icomoon';
+            speak: none;
+            -webkit-font-smoothing: antialiased;
+            content: "\e000";
+        }
+
+        .dl-menuwrapper li.dl-back:after {
+            left: 15px;
+            color: rgba(212,204,198,0.3);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            font-size: 1.5em;
+            margin: 0.5em 0em 0em 0em;
+        }
+
+        .dl-menuwrapper li > a:after {
+            right: 10px;
+            color: rgba(255,255, 255, .3);
+            margin: 0.5em 0em 0em 0em;
+        }
+
+    .dl-menuwrapper .dl-menu {
+        margin: 1.6em 0 0 0;
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+        .dl-menuwrapper .dl-menu.dl-menu-toggle {
+            transition: all 0.3s ease;
+        }
+
+        .dl-menuwrapper .dl-menu.dl-menuopen {
+            opacity: 1;
+            pointer-events: auto;
+            -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+        }
+
+    /* Hide the inner submenus */
+    .dl-menuwrapper li .dl-submenu {
+        display: none;
+    }
+
+    /* 
+When a submenu is openend, we will hide all li siblings.
+For that we give a class to the parent menu called "dl-subview".
+We also hide the submenu link. 
+The opened submenu will get the class "dl-subviewopen".
+All this is done for any sub-level being entered.
+*/
+    .dl-menu.dl-subview li,
+    .dl-menu.dl-subview li.dl-subviewopen > a,
+    .dl-menu.dl-subview li.dl-subview > a {
+        display: none;
+    }
+
+        .dl-menu.dl-subview li.dl-subview,
+        .dl-menu.dl-subview li.dl-subview .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
+            display: block;
+        }
+
+    /* Dynamically added submenu outside of the menu context */
+    .dl-menuwrapper > .dl-submenu {
+        position: absolute;
+        width: 100%;
+        top: 78px;
+        left: 0;
+        margin: 0;
+    }
+
+    /* Animation classes for moving out and in */
+
+    .dl-menu.dl-animate-out-5 {
+        -webkit-animation: MenuAnimOut5 0.4s ease;
+        animation: MenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimOut5 {
+        0% {
+        }
+
+        100% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    @keyframes MenuAnimOut5 {
+        0% {
+        }
+
+        100% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    .dl-menu.dl-animate-in-5 {
+        -webkit-animation: MenuAnimIn5 0.4s ease;
+        animation: MenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
+        -webkit-animation: SubMenuAnimIn5 0.4s ease;
+        animation: SubMenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
+        -webkit-animation: SubMenuAnimOut5 0.4s ease;
+        animation: SubMenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+    /* No JS Fallback */
+    .no-js .dl-menuwrapper .dl-menu {
+        position: relative;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .no-js .dl-menuwrapper li .dl-submenu {
+        display: block;
+    }
+
+    .no-js .dl-menuwrapper li.dl-back {
+        display: none;
+    }
+
+    .no-js .dl-menuwrapper li > a:not(:only-child) {
+        background: rgba(0,0,0,0.1);
+    }
+
+        .no-js .dl-menuwrapper li > a:not(:only-child):after {
+            content: '';
+        }
+
+
+    /*Phần footer*/
+    footer {
+    }
+
+        /*Thông tin*/
+        footer > .add > .info {
+            padding: 0;
+        }
+
+            footer > .add > .info > .co-name {
+                font-size: 1.1em;
+            }
+
+        footer > .add > .map > iframe {
+            height: 15em;
+        }
+
+        footer > .follow > .chanel > span {
+            font-size: 1.2em;
+        }
+
+        footer > .follow > .signup {
+            margin: 0 0 1em 0;
+        }
+
+            footer > .follow > .signup > input {
+                width: 100%;
+            }
+
+            footer > .follow > .signup > button {
+                width: 40%;
+                margin: 0em 0 0 30%;
+            }
+
+        /*Phần facebook*/
+        footer > .follow > .like {
+            width: 100%;
+            height: 12em;
+        }
+}
+
+/*Giao diện cho điện thoại*/
+@media (max-width: 767px) {
+    .fixed {
+        height: 50px;
+    }
+
+    header {
+        position: static;
+        z-index: 99;
+    }
+
+    .dl-menuwrapper {
+        width: 100%;
+        height: 50px;
+        float: left;
+        position: relative;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-perspective-origin: 50% 200%;
+        perspective-origin: 50% 200%;
+        box-shadow: 0 3px 3px rgba(132,136,138,.1);
+        background: rgb(255, 255, 255);
+        border-bottom: solid 2px rgb(12, 123, 7);
+        z-index: 2000;
+        margin: 0;
+    }
+
+        .dl-menuwrapper:first-child {
+            margin-right: 0;
+        }
+
+        .dl-menuwrapper div {
+            width: 84%;
+            float: right;
+            margin: 0 0 6px 0;
+        }
+
+            .dl-menuwrapper div .logo {
+                width: 80%;
+                display: block;
+                text-align: center;
+                float: left;
+            }
+
+                .dl-menuwrapper div .logo img {
+                    width: 5em;
+                    padding: 0.5em 0em 0em 0em;
+                }
+
+            .dl-menuwrapper div .search {
+                position: absolute;
+                width: 10%;
+                height: 100%;
+                right: 0.5em;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                background-position-y: 1em;
+            }
+
+                .dl-menuwrapper div .search > i {
+                    color: rgb(12, 123, 7);
+                    font-size: 2em;
+                    margin-top: 0.35em;
+                }
+
+                .dl-menuwrapper div .search:before {
+                    border-left: 1px solid rgba(12, 123, 7, .3);
+                    content: "";
+                    height: 70%;
+                    position: absolute;
+                    top: 15%;
+                    left: -0.5em;
+                    width: 0;
+                }
+
+    .search-box {
+        z-index: 20;
+        font-family: Roboto-Light;
+        font-size: 1.2em;
+        width: 100%;
+        top: 50px;
+        display: none;
+        border: none;
+        padding: 0.6em 1em;
+        border-bottom: solid 2px rgb(12, 123, 7);
+        float: left;
+    }
+
+
+    .dl-menuwrapper button {
+        background: rgb(255, 255, 255);
+        border: none;
+        width: 16%;
+        height: 70%;
+        text-indent: -900em;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+        border-right: 1px solid rgba(12, 123, 7, .3);
+        top: 15%;
+    }
+
+        .dl-menuwrapper button:hover,
+        .dl-menuwrapper button.dl-active,
+        .dl-menuwrapper ul {
+            background: rgb(255, 255, 255);
+        }
+
+        .dl-menuwrapper button:after {
+            content: '';
+            position: absolute;
+            width: 70%;
+            height: 10%;
+            background: rgb(12, 123, 7);
+            top: 15%;
+            left: 15%;
+            box-shadow: 0 10px 0 rgb(12, 123, 7), 0 20px 0 rgb(12, 123, 7);
+        }
+
+    .dl-menuwrapper ul {
+        padding: 0;
+        list-style: none;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        background: rgb(12, 123, 7);
+    }
+
+    .dl-menuwrapper li {
+        position: relative;
+    }
+
+        .dl-menuwrapper li a {
+            display: block;
+            position: relative;
+            padding: 15px 20px;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #fff;
+            outline: none;
+            text-decoration: none;
+        }
+
+        .dl-menuwrapper li.dl-back > a {
+            padding-left: 30px;
+            background: rgba(0,0,0,0.1);
+        }
+
+        .dl-menuwrapper li.dl-back:after,
+        .dl-menuwrapper li > a:not(:only-child):after {
+            position: absolute;
+            top: 0;
+            line-height: 50px;
+            font-family: 'icomoon';
+            speak: none;
+            -webkit-font-smoothing: antialiased;
+            content: "\e000";
+        }
+
+        .dl-menuwrapper li.dl-back:after {
+            left: 10px;
+            color: rgba(212,204,198,0.3);
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .dl-menuwrapper li > a:after {
+            right: 10px;
+            color: rgba(255,255, 255, .3);
+        }
+
+    .dl-menuwrapper .dl-menu {
+        margin: 1.1em 0 0 0;
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+        .dl-menuwrapper .dl-menu.dl-menu-toggle {
+            transition: all 0.3s ease;
+        }
+
+        .dl-menuwrapper .dl-menu.dl-menuopen {
+            opacity: 1;
+            pointer-events: auto;
+            -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+        }
+
+    /* Hide the inner submenus */
+    .dl-menuwrapper li .dl-submenu {
+        display: none;
+    }
+
+    /* 
+When a submenu is openend, we will hide all li siblings.
+For that we give a class to the parent menu called "dl-subview".
+We also hide the submenu link. 
+The opened submenu will get the class "dl-subviewopen".
+All this is done for any sub-level being entered.
+*/
+    .dl-menu.dl-subview li,
+    .dl-menu.dl-subview li.dl-subviewopen > a,
+    .dl-menu.dl-subview li.dl-subview > a {
+        display: none;
+    }
+
+        .dl-menu.dl-subview li.dl-subview,
+        .dl-menu.dl-subview li.dl-subview .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
+        .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
+            display: block;
+        }
+
+    /* Dynamically added submenu outside of the menu context */
+    .dl-menuwrapper > .dl-submenu {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        margin: 0;
+    }
+
+    /* Animation classes for moving out and in */
+
+    .dl-menu.dl-animate-out-5 {
+        -webkit-animation: MenuAnimOut5 0.4s ease;
+        animation: MenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimOut5 {
+        0% {
+        }
+
+        100% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    @keyframes MenuAnimOut5 {
+        0% {
+        }
+
+        100% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+    }
+
+    .dl-menu.dl-animate-in-5 {
+        -webkit-animation: MenuAnimIn5 0.4s ease;
+        animation: MenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes MenuAnimIn5 {
+        0% {
+            -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-in-5 {
+        -webkit-animation: SubMenuAnimIn5 0.4s ease;
+        animation: SubMenuAnimIn5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes SubMenuAnimIn5 {
+        0% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+    }
+
+    .dl-menuwrapper > .dl-submenu.dl-animate-out-5 {
+        -webkit-animation: SubMenuAnimOut5 0.4s ease;
+        animation: SubMenuAnimOut5 0.4s ease;
+    }
+
+    @-webkit-keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes SubMenuAnimOut5 {
+        0% {
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateZ(-200px);
+            transform: translateZ(-200px);
+            opacity: 0;
+        }
+    }
+
+    /* No JS Fallback */
+    .no-js .dl-menuwrapper .dl-menu {
+        position: relative;
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    .no-js .dl-menuwrapper li .dl-submenu {
+        display: block;
+    }
+
+    .no-js .dl-menuwrapper li.dl-back {
+        display: none;
+    }
+
+    .no-js .dl-menuwrapper li > a:not(:only-child) {
+        background: rgba(0,0,0,0.1);
+    }
+
+        .no-js .dl-menuwrapper li > a:not(:only-child):after {
+            content: '';
+        }
+
+    /*Phần footer*/
+    footer {
+    }
+
+        /*Thông tin và địa chỉ*/
+        footer > .add {
+            padding: 0;
+        }
+
+            footer > .add > .info > .co-name {
+                font-size: 1.4em;
+            }
+
+            footer > .add > .info > .co-if {
+                font-size: 1.2em;
+            }
+
+            /*Bản đồ*/
+            footer > .add > .map {
+                margin: 0 0 2em 0;
+            }
+
+        /*Phần đăng ký nhận tin*/
+        footer > .follow > .chanel {
+            font-size: 1.2em;
+        }
+
+        footer > .follow > .signup {
+            margin: 0 0 2em 0;
+        }
+
+            footer > .follow > .signup > input {
+                width: 100%;
+            }
+
+            footer > .follow > .signup > button {
+                width: 40%;
+                margin: 0.5em 0 0 30%;
+            }
+
+        /*Phần mạng xã hội*/
+        footer > .follow > .social {
+            text-align: center;
+            margin: 0 0 1em 0;
+        }
+
+            footer > .follow > .social > a {
+                font-size: 2.3em;
+                margin: 0em 0.2em 0.5em 0.2em;
+            }
+
+        /*Phần facebook*/
+        footer > .follow > .like {
+            margin: 0 0 1em 0;
+        }
+        /*Menu*/
+        footer > .menu {
+            text-align: center;
+            padding: 0;
+        }
+
+            footer > .menu > ul {
+                list-style: none;
+                padding: 0;
+            }
+
+                footer > .menu > ul > li > a {
+                    font-size: 1.2em;
+                }
+}
