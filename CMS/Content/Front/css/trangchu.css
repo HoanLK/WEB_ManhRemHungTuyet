@@ -45,7 +45,7 @@
                     .trangchu > .banner > .anh > .danhmuc > ul > .title {
                         background: rgb(6, 123, 9);
                         color: rgb(255, 255, 255);
-                        font-family: Roboto-Regular;
+                        /*font-family: Roboto-Regular;*/
                         font-size: 1.5em;
                         text-transform: uppercase;
                         padding: 0.5em 0.5em;
@@ -60,7 +60,7 @@
                     }
 
                         .trangchu > .banner > .anh > .danhmuc > ul > li > a {
-                            font-family: Roboto-Regular;
+                            /*font-family: Roboto-Regular;*/
                             font-size: 1.4em;
                             color: rgb(255, 255, 255);
                             text-decoration: none;
@@ -111,7 +111,7 @@
                 }
 
                 .trangchu > .banner > .gioithieu-congtrinh > .gioithieu > p {
-                    font-family: Roboto-Regular;
+                    /*font-family: Roboto-Regular;*/
                     font-size: 1.3em;
                     color: rgb(255, 255, 255);
                     top: -3em;
@@ -162,7 +162,7 @@
                 }
 
                 .trangchu > .banner > .gioithieu-congtrinh > .tieubieu > p {
-                    font-family: Roboto-Regular;
+                    /*font-family: Roboto-Regular;*/
                     font-size: 1.3em;
                     color: rgb(255, 255, 255);
                     top: -3em;
@@ -192,7 +192,7 @@
     }
 
         .trangchu > .banchay > .tieude {
-            font-family: Roboto-Regular;
+            /*font-family: Roboto-Regular;*/
             font-size: 2em;
             color: rgb(12, 123, 7);
             font-weight: bold;
@@ -233,7 +233,7 @@
                     }
 
                     .trangchu > .banchay > .sanpham > div > a > p {
-                        font-family: Roboto-Regular;
+                        /*font-family: Roboto-Regular;*/
                         font-size: 1.3em;
                         color: rgb(0, 0, 0);
                         transition: all .3s ease-in-out;
@@ -266,7 +266,7 @@
 
                 .trangchu > .sanpham > .loaisanpham > .phanloai > p {
                     background: rgb(12, 123, 7);
-                    font-family: Roboto-Regular;
+                    /*font-family: Roboto-Regular;*/
                     font-size: 1.5em;
                     color: rgb(255, 255, 255);
                     text-align: center;
@@ -280,7 +280,7 @@
 
                     .trangchu > .sanpham > .loaisanpham > .phanloai > .link > a {
                         display: block;
-                        font-family: Roboto-Light;
+                        /*font-family: Roboto-Light;*/
                         font-size: 1.1em;
                         font-weight: bold;
                         color: rgba(0, 0, 0, .7);
@@ -305,13 +305,13 @@
                 }
 
                 .trangchu > .sanpham > .loaisanpham > .main > p {
-                    font-family: Roboto-Regular;
+                    /*font-family: Roboto-Regular;*/
                     font-size: 1.5em;
                     margin: 1em 0;
                 }
 
                     .trangchu > .sanpham > .loaisanpham > .main > p > span {
-                        font-family: Roboto-Black;
+                        /*font-family: Roboto-Black;*/
                         font-size: 1.5em;
                         text-transform: uppercase;
                     }
@@ -346,7 +346,7 @@
             }
 
                 .trangchu > .sanpham > .loaisanpham > .sub > div {
-                    padding: 0;
+                    padding: 0 1em;
                     text-align: center;
                     margin: 0 0 1em 0;
                     height: 16em;
@@ -358,10 +358,12 @@
                     }
 
                         .trangchu > .sanpham > .loaisanpham > .sub > div > a > img {
+                            height:10em;
+                            margin:0 auto;
                         }
 
                         .trangchu > .sanpham > .loaisanpham > .sub > div > a > p {
-                            font-family: Roboto-Regular;
+                            /*font-family: Roboto-Regular;*/
                             font-size: 1.1em;
                             color: rgba(0, 0, 0, .6);
                             font-weight: bold;
@@ -381,7 +383,7 @@
     }
 
         .trangchu > .duan > p {
-            font-family: Roboto-Black;
+            /*font-family: Roboto-Black;*/
             font-size: 2em;
             color: rgb(12, 123, 7);
             text-transform: uppercase;
@@ -462,7 +464,7 @@
         }
 
             .trangchu > .tintuc > .cactintuc > p {
-                font-family: Roboto-Regular;
+                /*font-family: Roboto-Regular;*/
                 font-size: 2em;
                 text-transform: uppercase;
             }
@@ -489,7 +491,7 @@
                 }
 
                 .trangchu > .tintuc > .cactintuc > .news > p {
-                    font-family: Roboto-Light;
+                    /*font-family: Roboto-Light;*/
                     color: rgba(0, 0, 0, .7);
                     text-align: justify;
                 }
@@ -511,7 +513,7 @@
                     }
 
                         .trangchu > .tintuc > .cactintuc > .list > ul > li > a {
-                            font-family: Roboto-Light;
+                            /*font-family: Roboto-Light;*/
                             font-style: italic;
                             color: rgba(0, 0, 0, .7);
                             line-height: 1.8em;
@@ -526,7 +528,7 @@
                 /*Nút xem thêm*/
                 .trangchu > .tintuc > .cactintuc > .list > a {
                     float: right;
-                    font-family: Roboto-Regular;
+                    /*font-family: Roboto-Regular;*/
                     font-size: 1.3em;
                     text-decoration: none;
                 }

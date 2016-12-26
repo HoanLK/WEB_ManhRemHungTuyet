@@ -14,7 +14,7 @@
 
         .danhsachsanpham > .banner > p {
             background: linear-gradient(to left,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 12%,rgba(0,0,0,.2) 39%,rgba(0,0,0,.3) 51%,rgba(0,0,0,.4) 100%);
-            font-family: Roboto-Medium;
+            /*font-family: Roboto-Medium;*/
             font-size: 1.7em;
             color: rgb(255, 255, 255);
             text-align: justify;
@@ -36,7 +36,7 @@
 
         /*Tiêu đề*/
         .danhsachsanpham > .danhsach > .title {
-            font-family: Roboto-Black;
+            /*font-family: Roboto-Black;*/
             font-size: 2em;
             color: rgb(12, 123, 7);
             text-transform: uppercase;
@@ -72,7 +72,7 @@
                     }
 
                     .danhsachsanpham > .danhsach > .cacsanpham > .sanpham > a > p {
-                        font-family: Roboto-Regular;
+                        /*font-family: Roboto-Regular;*/
                         font-size: 1.5em;
                         color: rgba(0, 0, 0, .6);
                         margin: 0.5em 0 0 0;

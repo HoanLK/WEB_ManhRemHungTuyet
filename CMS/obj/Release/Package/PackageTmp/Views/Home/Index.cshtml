@@ -28,7 +28,7 @@
         <!--Phần giới thiệu và công trình tiêu biểu-->
         <div class="gioithieu-congtrinh col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <!--Giới thiệu-->
-            <a href="/bai-viet/gioi-thieu-1" class="gioithieu col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <a href="gioi-thieu" class="gioithieu col-xs-6 col-sm-6 col-md-12 col-lg-12">
                 <img src="~/Content/Front/images/trangchu/gioithieu.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
                 <div class="opacity col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -50,6 +50,7 @@
     <!--Sản phẩm bán chạy-->
     <article class="banchay col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-controller="categoryProductController">
         <p class="tieude col-xs-12 col-sm-12 col-md-12 col-lg-12">Sản phẩm bán chạy</p>
+        <span us-spinner="{radius:15, width:4, length: 8}"></span>
         <div class="sanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3" dir-paginate="(index, value) in spNoiBats | itemsPerPage:4">
                 <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -68,7 +69,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rèm vải</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remVaiProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remVaiProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -79,8 +80,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remVais.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in remVais | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remVais.length > 0" dir-paginate="(index, value) in remVais | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive"/><br />
                         <p>{{value.title}}</p>
                     </a>
@@ -98,7 +100,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rèm cuốn</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remCuonProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remCuonProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -109,8 +111,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remCuons.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in remCuons | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remCuons.length > 0" dir-paginate="(index, value) in remCuons | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
                         <p>{{value.title}}</p>
                     </a>
@@ -128,7 +131,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rèm sáo</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remSaoProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remSaoProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -139,8 +142,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remSaos.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in remSaos | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remSaos.length > 0" dir-paginate="(index, value) in remSaos | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
                         <p>{{value.title}}</p>
                     </a>
@@ -158,7 +162,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rèm chức năng</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remChucNangProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remChucNangProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -169,8 +173,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remChucNangs.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in remChucNangs | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remChucNangs.length > 0" dir-paginate="(index, value) in remChucNangs | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
                         <p>{{value.title}}</p>
                     </a>
@@ -188,7 +193,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Rèm khác</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remKhacProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in remKhacProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -199,8 +204,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remKhacs.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in remKhacs | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="remKhacs.length > 0" dir-paginate="(index, value) in remKhacs | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
                         <p>{{value.title}}</p>
                     </a>
@@ -218,7 +224,7 @@
             <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
                 <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Chăn ga</p>
                 <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.id}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in chanGaProducts">{{value.title}}</a>
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in chanGaProducts">{{value.title}}</a>
                 </div>
             </div>
             <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
@@ -229,8 +235,9 @@
                 </p>
             </div>
             <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="chanGas.length > 0">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in chanGas | itemsPerPage:6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="chanGas.length > 0" dir-paginate="(index, value) in chanGas | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
                         <p>{{value.title}}</p>
                     </a>

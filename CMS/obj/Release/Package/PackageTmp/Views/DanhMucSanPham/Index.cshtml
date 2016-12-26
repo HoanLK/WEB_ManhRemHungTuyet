@@ -1,6 +1,6 @@
 ﻿@*@model CMS.Models.Product*@
 @{
-    ViewBag.Title = "Danh sách sản phẩm";
+    ViewBag.Title = "Danh mục sản phẩm";
 }
 
 <!--Danh mục các loại sản phẩm. Trang sản phẩm lớn từ menu-->
@@ -17,15 +17,16 @@
 
     <!--Danh mục sản phẩm-->
     <article class="danhmuc col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <span us-spinner="{radius:15, width:4, length: 8}"></span>
         <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             Danh mục sản phẩm
         </p>
         <div class="cacsanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+            <span us-spinner="{radius:15, width:4, length: 8}"></span>
             <!--Rèm vải-->
             <div class="sanpham col-xs-12 col-sm-4 col-md-4 col-lg-4" ng-repeat="(index, value) in categoryProducts">
                 <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}">
-                    <img ng-src="{{value.image}}" alt="{{value.title}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                    <img ng-src="{{value.image}}"/>
                     <div class="info col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <p>{{value.image}}</p>
                         <p class="title rv col-xs-12 col-sm-12 col-md-12 col-lg-12">

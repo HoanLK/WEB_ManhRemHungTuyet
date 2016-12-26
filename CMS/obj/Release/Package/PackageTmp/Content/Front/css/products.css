@@ -17,7 +17,7 @@
 
             /*Tên sản phẩm*/
             .tungsanpham > article > .info > p {
-                font-family: Roboto-Black;
+                /*font-family: Roboto-Black;*/
                 font-size: 2em;
                 color: rgb(12, 123, 7);
                 padding: 0;
@@ -26,7 +26,7 @@
             /*Nút mua hàng*/
             .tungsanpham > article > .info > button {
                 background: rgba(12, 123, 7, .6);
-                font-family: Roboto-Light;
+                /*font-family: Roboto-Light;*/
                 font-size: 1.3em;
                 color: rgb(255, 255, 255);
                 padding: 0.5em 1em;
@@ -37,7 +37,7 @@
 
                 .tungsanpham > article > .info > button:hover {
                     background: rgb(12, 123, 7);
-                    font-family: Roboto-Black;
+                    /*font-family: Roboto-Black;*/
                 }
 
             /*Thông tin sản phẩm*/
@@ -98,7 +98,7 @@
 
             /*Sđt liên hệ*/
             .tungsanpham > article > .info > a {
-                font-family: Roboto-Black;
+                /*font-family: Roboto-Black;*/
                 font-size: 1.5em;
                 text-decoration: none;
                 color: rgb(12, 123, 7);
@@ -119,7 +119,7 @@
 
         /*Tiêu đề*/
         .tungsanpham > aside > p {
-            font-family: Roboto-Black;
+            /*font-family: Roboto-Black;*/
             font-size: 2em;
             color: rgb(12, 123, 7);
             border-bottom: solid 2px;
@@ -151,7 +151,7 @@
                     }
 
                         .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .title {
-                            font-family: Roboto-Black;
+                            /*font-family: Roboto-Black;*/
                             padding: 0 0 0 1em;
                             margin: 0;
                             transition: all .3s ease-in-out;
@@ -162,7 +162,7 @@
                     }
 
                     .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .detail {
-                        font-family: Roboto-Light;
+                        /*font-family: Roboto-Light;*/
                         text-align: justify;
                         padding: 0 0 0 1em;
                     }

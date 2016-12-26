@@ -21,7 +21,7 @@
 
                 .tutorial > aside > .danhmuc > ul > .tieude {
                     background: rgb(12, 123, 7);
-                    font-family: Roboto-Black;
+                    /*font-family: Roboto-Black;*/
                     font-size: 1.5em;
                     color: rgb(255, 255, 255);
                     text-transform: uppercase;
@@ -37,7 +37,7 @@
                         display: block;
                         border-bottom: solid 1px rgb(12, 123, 7);
                         padding: 0.5em 0;
-                        font-family: Roboto-Regular;
+                        /*font-family: Roboto-Regular;*/
                         font-size: 1.2em;
                         color: rgba(0, 0, 0, .6);
                         text-decoration: none;
@@ -65,7 +65,7 @@
         }
 
             .tutorial > aside > .noibat > .tieude {
-                font-family: Roboto-Regular;
+                /*font-family: Roboto-Regular;*/
                 font-size: 1.5em;
                 text-transform: uppercase;
                 border-bottom: solid 2px rgb(12, 123, 7);
@@ -93,7 +93,7 @@
                         }
 
                         .tutorial > aside > .noibat > .cacbaiviet > .tungbaiviet > a > p {
-                            font-family: Roboto-Regular;
+                            /*font-family: Roboto-Regular;*/
                             font-size: 1.3em;
                             color: rgba(0, 0, 0, .6);
                             font-weight: bold;
@@ -114,7 +114,7 @@
         }
 
             .tutorial > aside > .quantam > .tieude {
-                font-family: Roboto-Regular;
+                /*font-family: Roboto-Regular;*/
                 font-size: 1.5em;
                 text-transform: uppercase;
                 border-bottom: solid 2px rgb(12, 123, 7);
@@ -142,7 +142,7 @@
                         }
 
                         .tutorial > aside > .quantam > .cacbaiviet > .tungbaiviet > a > p {
-                            font-family: Roboto-Regular;
+                            /*font-family: Roboto-Regular;*/
                             font-size: 1.3em;
                             color: rgba(0, 0, 0, .6);
                             font-weight: bold;
@@ -180,7 +180,7 @@
 
                 /*Tiêu đề*/
                 .tutorial > .danhsachbaiviet > .baiviet > .info > a {
-                    font-family: Roboto-Black;
+                    /*font-family: Roboto-Black;*/
                     font-size: 1.5em;
                     color: rgba(0, 0, 0, .6);
                     text-decoration: none;
@@ -201,14 +201,14 @@
 
                 /*Tóm tắt bài viết*/
                 .tutorial > .danhsachbaiviet > .baiviet > .info > .detail {
-                    font-family: Roboto-Light;
+                    /*font-family: Roboto-Light;*/
                     font-size: 1em;
                     text-align: justify;
                 }
 
                     /*Xem thêm*/
                     .tutorial > .danhsachbaiviet > .baiviet > .info > .detail > a {
-                        font-family: Roboto-Regular;
+                        /*font-family: Roboto-Regular;*/
                         font-style: italic;
                         color: rgb(12, 123, 7);
                         text-decoration: none;

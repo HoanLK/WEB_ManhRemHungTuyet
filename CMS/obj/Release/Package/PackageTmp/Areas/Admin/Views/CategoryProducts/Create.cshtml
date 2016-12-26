@@ -59,8 +59,8 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="image" id="image" ng-model="category.image" class="form-control" /> <button class="btn btn-primary" ng-click="chooseImage()">Chọn ảnh</button>
-                                        <label for="image">Hình ảnh</label>
-                                        <img class="img-responsive" src="{{category.image}}" ng-show="category.image" />
+                                        <label for="image">Hình ảnh (408 x 280)</label>
+                                        <img class="img-responsive" ng-src="{{category.image}}" ng-show="category.image" />
                                     </div>
                                     @*<div class="form-group">
                                         <input type="text" name="image_banner" id="image_banner" ng-model="category.image_banner" class="form-control" /> <button class="btn btn-primary" ng-click="chooseImageBanner()">Chọn ảnh</button>

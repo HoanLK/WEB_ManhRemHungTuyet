@@ -47,7 +47,8 @@
     <article class="danhsachbaiviet col-xs-12 col-sm-12 col-md-9 col-lg-9" ng-controller="categoryPostController">
         <input type="hidden" value="@Model.idCategory" id="idCategory" />
         <span us-spinner="{radius:15, width:4, length: 8}"></span>
-        <div class="baiviet col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in posts">
+        <p ng-hide="posts.length > 0" style="text-align:center; font-size:2em; color:#0c7b07">Chưa có bài viết nào</p>
+        <div class="baiviet col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in posts" ng-show="posts.length > 0">
             <img ng-src="{{value.image}}" alt="{{value.title}}" class="col-xs-12 col-sm-2 col-md-2 col-lg-2" />
             <div class="info col-xs-12 col-sm-10 col-md-10 col-lg-10">
                 <a href="/bai-viet/{{value.alias}}-{{value.idPost}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{value.title}}</a>
