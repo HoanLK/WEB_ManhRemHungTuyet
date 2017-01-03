@@ -144,20 +144,22 @@
 
                     .tungsanpham > aside > .cacsanpham > .sanpham > a > img {
                         padding: 0;
+                        height: 8em;
                     }
 
                     .tungsanpham > aside > .cacsanpham > .sanpham > a > .info {
                         padding: 0;
                     }
 
-                        .tungsanpham > aside > .cacsanpham > .sanpham > a > .info > .title {
-                            /*font-family: Roboto-Black;*/
-                            padding: 0 0 0 1em;
-                            margin: 0;
-                            transition: all .3s ease-in-out;
-                        }
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a > .title {
+                        /*font-family: Roboto-Black;*/
+                        padding: 0 0 0.5em 0;
+                        margin: 0;
+                        transition: all .3s ease-in-out;
+                        font-weight: bold;
+                    }
 
-                    .tungsanpham > aside > .cacsanpham > .sanpham > a:hover > .info > .title {
+                    .tungsanpham > aside > .cacsanpham > .sanpham > a:hover > .title {
                         color: rgb(12, 123, 7);
                     }
 

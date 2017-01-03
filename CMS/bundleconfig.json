@@ -1,179 +1,5 @@
 [
   {
-    "outputFileName": "Content/admin/Login.css",
-    "inputFiles": [
-      "Content/admin/Login.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/bootstrap.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/bootstrap.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/materialadmin.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/materialadmin.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/toastr/toastr.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/toastr/toastr.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/TableTools.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/DataTables/TableTools.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css",
-    "inputFiles": [
-      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/js/libs/toastr/toastr.js",
-    "inputFiles": [
-      "Content/admin/js/libs/toastr/toastr.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/admin/js/core/demo/DemoTableDynamic.js",
-    "inputFiles": [
-      "Content/admin/js/core/demo/DemoTableDynamic.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/pagination/dirPagination.js",
-    "inputFiles": [
-      "Scripts/front/pagination/dirPagination.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/admin/myApp.js",
-    "inputFiles": [
-      "Scripts/admin/myApp.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/admin/categoryProductFactory.js",
-    "inputFiles": [
-      "Scripts/admin/categoryProductFactory.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/menuMainController.js",
-    "inputFiles": [
-      "Scripts/front/menuMainController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/cusRegisterController.js",
-    "inputFiles": [
-      "Scripts/front/cusRegisterController.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/yamm.css",
-    "inputFiles": [
-      "Content/front/css/yamm.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/bootstrap.min.css",
-    "inputFiles": [
-      "Content/front/css/bootstrap.min.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/bootstrap.css",
-    "inputFiles": [
-      "Content/front/css/bootstrap.css"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/homeController.min.js",
-    "inputFiles": [
-      "Scripts/front/homeController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/menuCategoryProductController.min.js",
-    "inputFiles": [
-      "Scripts/front/menuCategoryProductController.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/BaiViet.min.min.css",
-    "inputFiles": [
-      "Content/front/css/BaiViet.min.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/BaiViet.min.css",
-    "inputFiles": [
-      "Content/front/css/BaiViet.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/SanPham.min.css",
-    "inputFiles": [
-      "Content/front/css/SanPham.css"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/showProductController.min.js",
-    "inputFiles": [
-      "Scripts/front/showProductController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/allCategoryProductController.min.js",
-    "inputFiles": [
-      "Scripts/front/allCategoryProductController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/childCategoryPostController.min.js",
-    "inputFiles": [
-      "Scripts/front/childCategoryPostController.js"
-    ]
-  },
-  {
-    "outputFileName": "Content/front/css/Site.min.css",
-    "inputFiles": [
-      "Content/front/css/Site.css"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/allCategoryPostController.min.js",
-    "inputFiles": [
-      "Scripts/front/allCategoryPostController.js"
-    ]
-  },
-  {
     "outputFileName": "Scripts/front/bannerController.min.js",
     "inputFiles": [
       "Scripts/front/bannerController.js"
@@ -192,21 +18,9 @@
     ]
   },
   {
-    "outputFileName": "Scripts/front/childCategoryProductController.min.js",
-    "inputFiles": [
-      "Scripts/front/childCategoryProductController.js"
-    ]
-  },
-  {
     "outputFileName": "Scripts/front/frontApp.min.js",
     "inputFiles": [
       "Scripts/front/frontApp.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/menuCategoryPostController.min.js",
-    "inputFiles": [
-      "Scripts/front/menuCategoryPostController.js"
     ]
   },
   {
@@ -216,21 +30,9 @@
     ]
   },
   {
-    "outputFileName": "Scripts/front/showPostController.min.js",
-    "inputFiles": [
-      "Scripts/front/showPostController.js"
-    ]
-  },
-  {
     "outputFileName": "Scripts/front/showSearchController.min.js",
     "inputFiles": [
       "Scripts/front/showSearchController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/tabController.min.js",
-    "inputFiles": [
-      "Scripts/front/tabController.js"
     ]
   },
   {
@@ -456,69 +258,9 @@
     ]
   },
   {
-    "outputFileName": "Content/Front/css/chitietsanpham.min.css",
-    "inputFiles": [
-      "Content/Front/css/chitietsanpham.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/header-footer.min.css",
-    "inputFiles": [
-      "Content/Front/css/header-footer.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/index-1.min.css",
-    "inputFiles": [
-      "Content/Front/css/index-1.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/index.min.css",
-    "inputFiles": [
-      "Content/Front/css/index.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/loaisanpham-1.min.css",
-    "inputFiles": [
-      "Content/Front/css/loaisanpham-1.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/loaisanpham.min.css",
-    "inputFiles": [
-      "Content/Front/css/loaisanpham.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/tuvan.min.css",
-    "inputFiles": [
-      "Content/Front/css/tuvan.css"
-    ]
-  },
-  {
     "outputFileName": "Scripts/front/jquery.dlmenu.min.js",
     "inputFiles": [
       "Scripts/front/jquery.dlmenu.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/front/loaisanpham.min.js",
-    "inputFiles": [
-      "Scripts/front/loaisanpham.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/admin/danhsachImageController.min.js",
-    "inputFiles": [
-      "Scripts/admin/danhsachImageController.js"
-    ]
-  },
-  {
-    "outputFileName": "Scripts/admin/themImageController.min.js",
-    "inputFiles": [
-      "Scripts/admin/themImageController.js"
     ]
   },
   {
@@ -540,21 +282,9 @@
     ]
   },
   {
-    "outputFileName": "Scripts/front/header-footer.min.js",
-    "inputFiles": [
-      "Scripts/front/header-footer.js"
-    ]
-  },
-  {
     "outputFileName": "Content/Front/css/gioithieu.min.css",
     "inputFiles": [
       "Content/Front/css/gioithieu.css"
-    ]
-  },
-  {
-    "outputFileName": "Content/Front/css/header-footer-2.min.css",
-    "inputFiles": [
-      "Content/Front/css/header-footer-2.css"
     ]
   },
   {
@@ -591,6 +321,90 @@
     "outputFileName": "Content/Front/css/trangchu.min.css",
     "inputFiles": [
       "Content/Front/css/trangchu.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/front/pagination/dirPagination.min.js",
+    "inputFiles": [
+      "Scripts/front/pagination/dirPagination.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/bootstrap.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/bootstrap-tagsinput/bootstrap-tagsinput.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/jquery.dataTables.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/DataTables/TableTools.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/DataTables/TableTools.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/libs/toastr/toastr.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/libs/toastr/toastr.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/css/theme-default/materialadmin.min.css",
+    "inputFiles": [
+      "Content/admin/css/theme-default/materialadmin.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/js/core/demo/DemoTableDynamic.min.js",
+    "inputFiles": [
+      "Content/admin/js/core/demo/DemoTableDynamic.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/js/libs/toastr/toastr.min.js",
+    "inputFiles": [
+      "Content/admin/js/libs/toastr/toastr.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/admin/Login.min.css",
+    "inputFiles": [
+      "Content/admin/Login.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/admin/categoryProductFactory.min.js",
+    "inputFiles": [
+      "Scripts/admin/categoryProductFactory.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/admin/myApp.min.js",
+    "inputFiles": [
+      "Scripts/admin/myApp.js"
     ]
   }
 ]

@@ -7,7 +7,6 @@
   <parameter name="CMS-Web.config Connection String" description="" value="Data Source=112.78.2.94,1433;Initial Catalog=manccd68_ManhRem;Application Name=EntityFramework; User ID=manccd68_pgdien;Password=Dienvjppr0@@" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\Project\\KNT\\WebsiteManhRem-Code\\CMS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CMS']/@connectionString" />
   </parameter>
-  <parameter name="GachMenLongKhanhEntities-Web.config Connection String" description="" value="" tags="" />
   <parameter name="ManhRemEntities-Web.config Connection String" description="" value="metadata=res://*/Models.ManhRem.csdl|res://*/Models.ManhRem.ssdl|res://*/Models.ManhRem.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=112.78.2.94,1433;Initial Catalog=manccd68_ManhRem;Application Name=EntityFramework; User ID=manccd68_pgdien;Password=Dienvjppr0@@&quot;" tags="">
     <parameterEntry kind="XmlFile" scope="D:\\Project\\KNT\\WebsiteManhRem-Code\\CMS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ManhRemEntities']/@connectionString" />
   </parameter>

@@ -11,7 +11,7 @@
         <img ng-src="{{product.image}}" alt="" class="col-xs-12 col-sm-5 col-md-5 col-lg-5" />
         <div class="info col-xs-12 col-sm-7 col-md-7 col-lg-7">
             <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">{{product.title}}</p>
-            <button type="submit" data-toggle="modal" data-target="#datHang" >Mua hàng</button>
+            <button type="submit" data-toggle="modal" data-target="#datHang">Mua hàng</button>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <!-- Nav tabs -->
                 <div class="card">
@@ -26,10 +26,10 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="mota" ng-bind-html="product.content">
-                            
+
                         </div>
                         <div role="tabpanel" class="tab-pane" id="thongso" ng-bind-html="product.description">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -47,13 +47,13 @@
         <div class="cacsanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <span us-spinner="{radius:15, width:4, length: 8}"></span>
             <div class="sanpham col-xs-12 col-sm-12 col-md-12 col-lg-12" dir-paginate="(index, value) in products | itemsPerPage:4">
-                <a href="/bai-viet/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        {{value.title}}
+                    </p>
                     <img ng-src="{{value.image}}" alt="" class="col-xs-6 col-sm-6 col-md-6 col-lg-6" />
                     <div class="info col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <p class="title col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            {{value.title}}
-                        </p>
-                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-bind-html="product.description"></p>
+                        <p class="detail col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-bind-html="product.note|limitTo:100"></p>
                     </div>
                 </a>
             </div>
@@ -86,7 +86,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal" style="border:0; background-color:#109917; color:#fff;">Đóng</button>
-                
+
             </div>
         </div>
     </div>

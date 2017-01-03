@@ -63,6 +63,36 @@
 
     <!--Phần các loại rèm-->
     <article class="sanpham col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-controller="categoryProductController">
+        <!--Chăn ga-->
+        <div class="loaisanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Chăn ga</p>
+                <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in chanGaProducts">{{value.title}}</a>
+                </div>
+            </div>
+            <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                <img src="~/Content/Front/images/trangchu/changa-1.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
+                <p>
+                    <span class="cg">Chăn ga</span><br />
+                    Êm ái - Ấm áp như lòng mẹ
+                </p>
+            </div>
+            <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <span us-spinner="{radius:15, width:4, length: 8}"></span>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="chanGas.length > 0" dir-paginate="(index, value) in chanGas | itemsPerPage:6">
+                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
+                        <p>{{value.title}}</p>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-hide="chanGas.length > 0">
+                    <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p>Chưa có sản phẩm</p>
+                    </a>
+                </div>
+            </div>
+        </div>
 
         <!--Rèm vải-->
         <div class="loaisanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -212,37 +242,6 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-hide="remKhacs.length > 0">
-                    <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <p>Chưa có sản phẩm</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!--Chăn ga-->
-        <div class="loaisanpham col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="phanloai col-xs-12 col-sm-4 col-md-2 col-lg-2">
-                <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">Chăn ga</p>
-                <div class="link col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <a href="/danh-muc-san-pham/{{value.alias}}-{{value.idCategory}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(index, value) in chanGaProducts">{{value.title}}</a>
-                </div>
-            </div>
-            <div class="main col-xs-12 col-sm-8 col-md-4 col-lg-4">
-                <img src="~/Content/Front/images/trangchu/changa-1.png" alt="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" />
-                <p>
-                    <span class="cg">Chăn ga</span><br />
-                    Êm ái - Ấm áp như lòng mẹ
-                </p>
-            </div>
-            <div class="sub col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <span us-spinner="{radius:15, width:4, length: 8}"></span>
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-show="chanGas.length > 0" dir-paginate="(index, value) in chanGas | itemsPerPage:6">
-                    <a href="/san-pham/{{value.alias}}-{{value.idProduct}}" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <img ng-src="{{value.image}}" alt="{{value.title}}" class="img-responsive" /><br />
-                        <p>{{value.title}}</p>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-hide="chanGas.length > 0">
                     <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <p>Chưa có sản phẩm</p>
                     </a>

@@ -2234,10 +2234,10 @@
     <Content Include="Content\admin\less\libs\multi-select\LICENSE.txt" />
     <Content Include="Content\admin\less\libs\wizard\MIT-LICENSE.txt" />
     <Content Include="Content\admin\Login.css" />
+    <Content Include="Content\admin\css\Site.css" />
     <Content Include="Content\admin\Login.min.css">
       <DependentUpon>Login.css</DependentUpon>
     </Content>
-    <Content Include="Content\admin\css\Site.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -2398,6 +2398,10 @@
     <Content Include="Content\ui-grid.svg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="bundleconfig.json.bindings">
+      <DependentUpon>bundleconfig.json</DependentUpon>
+    </Content>
+    <None Include="gulpfile.js" />
     <Content Include="Models\ManhRem.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ManhRem.edmx</DependentUpon>
@@ -2959,6 +2963,7 @@
     <Content Include="Content\Front\fonts\Roboto-Light.ttf" />
     <Content Include="Content\Front\fonts\Roboto-Medium.ttf" />
     <Content Include="Content\Front\fonts\Roboto-Regular.ttf" />
+    <None Include="package.json" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\DanhMucBaiViet\Index.cshtml" />
