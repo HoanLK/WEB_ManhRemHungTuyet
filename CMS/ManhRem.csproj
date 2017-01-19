@@ -2315,6 +2315,11 @@
     <Content Include="Content\Front\images\trangchu\remvai-2.png" />
     <Content Include="Content\Front\images\trangchu\tieubieu-1.png" />
     <Content Include="Content\Front\images\trangchu\tieubieu-2.png" />
+    <Content Include="Content\Front\Popup\jquery.popup.js" />
+    <Content Include="Content\Front\Popup\jquery.popup.min.js" />
+    <Content Include="Content\Front\Popup\pop.jpg" />
+    <Content Include="Content\Front\Popup\popup.css" />
+    <Content Include="Content\Front\Popup\popup.min.css" />
     <Content Include="Content\Images\images\baiviet-1.png" />
     <Content Include="Content\Images\images\remsao-1.png" />
     <Content Include="Content\Images\images\remvai-2.png" />
@@ -2658,6 +2663,7 @@
     <Content Include="Areas\Admin\Views\Orders\Checked.cshtml" />
     <Content Include="Areas\Admin\Views\Contacts\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Contacts\Index.cshtml" />
+    <Content Include="Views\Shared\_PopTet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
