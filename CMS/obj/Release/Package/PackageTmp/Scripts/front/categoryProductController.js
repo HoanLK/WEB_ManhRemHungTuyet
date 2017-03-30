@@ -24,7 +24,7 @@
     //    .success(function (data) {
     //        var categoryProducts = CategoryProduct.getallCategoryProduct(data);
     //        angular.forEach(categoryProducts, function (value, key) {
-    //            if (value.idCategoryParent == '1') {
+    //            if (value.idCategoryParent == 1) {
     //                $scope.categoryProducts.push(value);
     //            }
     //        });
@@ -61,6 +61,8 @@
                     $scope.chanGaProducts.push(value);
                 }
             });
+
+            //console.log($scope.categoryProducts);
         })
 
 
