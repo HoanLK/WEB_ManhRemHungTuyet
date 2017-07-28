@@ -166,3 +166,7 @@ D:\Project\KNT\WebsiteManhRem-Code\CMS\bin\WebMatrix.WebData.xml
 D:\Project\KNT\WebsiteManhRem-Code\CMS\obj\Debug\CMS.dll
 D:\Project\KNT\WebsiteManhRem-Code\CMS\obj\Debug\CMS.pdb
 D:\Project\KNT\WebsiteManhRem-Code\CMS\obj\Debug\ManhRem.csprojResolveAssemblyReference.cache
+D:\Project\KNT\WebsiteManhRem-Code\CMS\bin\CKFinder.pdb
+D:\Project\KNT\WebsiteManhRem-Code\CMS\bin\CKFinder_FileEditor.pdb
+D:\Project\KNT\WebsiteManhRem-Code\CMS\bin\CKFinder_ImageResize.pdb
+D:\Project\KNT\WebsiteManhRem-Code\CMS\bin\CKFinder_Watermark.pdb
